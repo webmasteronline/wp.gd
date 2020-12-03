@@ -1,0 +1,60 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+
+// ≥768px
++media-breakpoint-down(sm)
+	.resume_container .left, .right
+		text-align: left
+		border-right: none
+		h3
+			text-align: left
+			margin-bottom: 20px
+			margin-top: 20px
+		.resume-icon
+			margin-bottom: 20px
+
+
+// ≥576px
++media-breakpoint-down(xs)
+	.top-wrapper
+		.top-text
+			h1
+				font-size: 1.8em
+				margin-left: 15px
+				margin-right: 15px
+			p
+				font-size: 10px
+
+	.main-footer
+		text-align: left
+		.social-wrap
+			float: left
+			margin-top: 20px
+			width: 100%
+			ul
+				padding-left: 0px
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
