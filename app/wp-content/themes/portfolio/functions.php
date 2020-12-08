@@ -147,6 +147,7 @@ function portfolio_scripts() {
 
 
     wp_enqueue_script( 'portfolio-scripts',get_template_directory_uri() . '/assets/js/app.min.js' , array(), _S_VERSION, true );
+    wp_localize_script('portfolio-scripts', 'portDate', array('themePath' => get_template_directory_uri()));
 /*	wp_style_add_data( 'portfolio-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

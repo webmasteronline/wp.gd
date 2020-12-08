@@ -70,8 +70,49 @@ $(document).ready(function() {
 	$("input, select, textarea").jqBootstrapValidation(); 
 	$(".top-mnu ul a").mPageScroll2id();
 
-});
-$(window).ready(function() { 
+	$('.fw_form_fw_form').on('submit', function(){
+		var $this = $(this),
+			btn = $this.find('button'),
+			data = $this.serialize(),
+			formAlert = $('.form-alert'),
+			loader = '<img class="loader-inner" src="' + portDate.themePath + '/assets/img/preloader.gif" />';
+
+		$.ajax({
+			type: 'POST',
+			data: data,
+			beforeSend: function () {
+				btn.attr('disabled', true);
+				formAlert.removeClass('alert-success alert-danger').empty();
+				btn.after(loader);
+			},
+			success: function (responce) {
+				formAlert.fadeIn(300, function () {
+					console.log(responce);
+					if (responce.success){
+						formAlert.addClass('alert-success').text(responce.data.flash_messages.success.fw_ext_contact_form_process);
+						$this[0].reset();
+					}else{
+						formAlert.addClass('alert-danger');
+						var errors = '';
+						for (var key in responce.data.errors){
+							errors += responce.data.errors[key] + '</br>';
+						}
+						formAlert.html(errors);
+					}
+				});
+				$('.loader-inner').remove();
+				btn.attr('disabled', false);
+			},
+			error: function () {
+				alert('Error!');
+			}
+		});
+
+		return false;
+	});
 	$(".loader-inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
+});
+$(window).ready(function() { 
+
 });

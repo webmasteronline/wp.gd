@@ -29,6 +29,13 @@ svg
 
 .color_element
 	color: $color
+.fw_form_fw_form
+	.wrap-forms
+		sup
+			color: $color
+		label
+			+kerning(2)
+			color: $text_color
 .color_bg
 	background-color: $color
 .color_border
@@ -116,6 +123,11 @@ form
 	button
 		background-color: $color
 		+kerning(2)
-	.form-group
-		+kerning(2)
-		color: $text_color
+	.wrap-forms
+		.field-text
+			.label
+				+kerning(2)
+				color: $text_color
+			.wrap-forms 
+				sup
+					color: $color

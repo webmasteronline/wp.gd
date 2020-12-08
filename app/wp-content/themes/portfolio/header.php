@@ -23,6 +23,9 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <?php  $url=portfolio_theme_option('top_bg_img');  ?>
+<div class="loader">
+    <div class="loader-inner"></div>
+</div>
 <header class="main-head main-color-bg parallax-window" data-parallax="scroll" data-image-src="<?php echo $url['url'];?>" data-z-index="1" data-position="top center">
     <div class="container">
         <div class="row">

@@ -21,10 +21,6 @@ body
 	input, textarea
 		border: #666 1px solid
 		outline: none
-		&:focus:required:invalid
-			border-color: red
-		&:required:valid
-			border-color: green
 
 .hidden
 	display: none
@@ -380,7 +376,6 @@ $h: 3px
 			cursor: pointer
 			line-height: 2
 
-/**/
 .portfolio-item 
 	display: none
 	padding: 5px
@@ -402,34 +397,36 @@ $h: 3px
 			content: ''
 			left: 0
 			bottom: 0
-			width: 100%
+			width: 0
 			box-sizing: border-box
 			height: 0
 			border-bottom: 3px solid transparent
 			border-left: 3px solid transparent
 			transition: all .8s ease
+			z-index: 0
 		&::after
 			position: absolute
 			content: ''
 			right: 0
 			top: 0
-			width: 100%
+			width: 0
 			box-sizing: border-box
 			height: 0
 			border-top: 3px solid transparent
 			border-right: 3px solid transparent
-			transition: all .8s ease		
+			transition: all .8s ease
+			z-index: 0
 	&:hover 
 		.port-item-cont
 			opacity: 1
 			display: flex
 			&::after
-				border-color: deepskyblue
+				border-color: tomato
 				width: 100%
 				height: 100% 
 		.port-item-cont
 			&::before
-				border-color: deepskyblue
+				border-color: tomato
 				width: 100%
 				height: 100%			
 		.wrapper 
@@ -448,6 +445,7 @@ $h: 3px
 		padding: 2px 10px 
 		text-decoration: none
 		display: inline-block
+		z-index: 10
 
 .port-descr
 	background-color: #fff
@@ -483,7 +481,7 @@ $h: 3px
 	p
 		margin-top: 5px
 
-.main-form
+.fw_form_fw_form
 	button
 		border: none
 		color: #fff
@@ -493,24 +491,31 @@ $h: 3px
 		text-transform: uppercase
 		font-weight: 600
 		margin-top: 10px
-		float: right
-
-.form-groupa
-	display: block
-	margin-bottom: 20px
-	input,
-	textarea
-		width: 100%
-		border: 1px solid #ccc
-		margin-top: 5px
-		line-height: 40px
-		text-indent: 12px
-		font-size: 12px
-		background-color: transparent
+	.wrap-forms
+		display: block
+		margin-bottom: 20px
+		input,
+		textarea
+			width: 100%
+			border: 1px solid #ccc
+			margin-top: 5px
+			line-height: 40px
+			text-indent: 12px
+			font-size: 12px
+			background-color: transparent
+		label
+			font-weight: normal
+	.loader-inner
+		max-width: 20px
+		margin-top: 15px
+		margin-left: 15px
 
 .masonry-container
 	padding: 0
 	text-align: center
-
+	
+.form-alert
+	display: none
+	margin-top: 15px
 
 @import "media" // Always at the end

@@ -30,9 +30,9 @@ let paths = {
 
 	styles: {
 		src: [
-			'app/wp-content/themes/portfolio/assets/libs/bootstrap/scss/bootstrap-reboot.scss',
-			'app/wp-content/themes/portfolio/assets/libs/bootstrap/scss/bootstrap-grid.scss',
-			'app/wp-content/themes/portfolio/assets/libs/bootstrap/scss/utilities/_sizing.scss',
+			'app/wp-content/themes/portfolio/assets/libs/bootstrap/dist/css/bootstrap-reboot.min.css',
+			'app/wp-content/themes/portfolio/assets/libs/bootstrap/dist/css/bootstrap-grid.min.css',
+			'app/wp-content/themes/portfolio/assets/libs/bootstrap/dist/css/bootstrap.min.css',
 			'app/wp-content/themes/portfolio/assets/libs/font-awesome/css/font-awesome.min.css',
 			'app/wp-content/themes/portfolio/assets/libs/linea/styles.css',
 			'app/wp-content/themes/portfolio/assets/libs/magnific-popup/magnific-popup.css',			//'app/wp-content/themes/portfolio/assets/libs/bootstrap/scss/bootstrap-reboot.scss',
@@ -98,7 +98,7 @@ function styles() {
 	.pipe(eval(preprocessor)())
 	.pipe(concat(paths.cssOutputName))
 	.pipe(autoprefixer({ overrideBrowserslist: ['last 10 versions'], grid: true }))
-	.pipe(cleancss( {level: { 1: { specialComments: 0 } },/* format: 'beautify' */ }))
+	.pipe(cleancss( {level: { 1: { specialComments: 0 } }, format: 'beautify'  }))
 	.pipe(dest(paths.styles.dest))
 	.pipe(browserSync.stream())
 }
