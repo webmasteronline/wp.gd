@@ -83,6 +83,7 @@ $(document).ready(function() {
 			beforeSend: function () {
 				btn.attr('disabled', true);
 				formAlert.removeClass('alert-success alert-danger').empty();
+                $('.border-error').removeClass('border-error');
 				btn.after(loader);
 			},
 			success: function (responce) {
@@ -96,6 +97,8 @@ $(document).ready(function() {
 						var errors = '';
 						for (var key in responce.data.errors){
 							errors += responce.data.errors[key] + '</br>';
+							var nameFild = document.getElementsByName(key);
+                            $(nameFild).addClass('border-error');
 						}
 						formAlert.html(errors);
 					}
@@ -110,6 +113,21 @@ $(document).ready(function() {
 
 		return false;
 	});
+
+
+	jQuery(document).ready(function($) {
+		var data = {
+			action: 'hello',
+			name: myPlugin.name
+		};
+
+		// с версии 2.8 'ajaxurl' всегда определен в админке
+		jQuery.post( myPlugin.ajaxurl, data, function(response) {
+			alert('Получено с сервера: ' + response);
+		});
+	});
+
+
 	$(".loader-inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 });

@@ -391,7 +391,8 @@ $h: 3px
 		background-color: rgba(0,0,0,.8)
 		text-align: center
 		opacity: 0
-		transition: opacity 0.5s
+		transition: opacity 1s
+		display: flex
 		&::before
 			position: absolute
 			content: ''
@@ -434,6 +435,11 @@ $h: 3px
 			justify-content: center
 			display: flex
 			flex-direction: column
+	.wrapper 
+		align-items: center
+		justify-content: center
+		display: flex
+		flex-direction: column
 	h3
 		color: #fff
 		margin-bottom: 0px
@@ -509,6 +515,8 @@ $h: 3px
 		max-width: 20px
 		margin-top: 15px
 		margin-left: 15px
+	.border-error
+		border: 1px solid red !important
 
 .masonry-container
 	padding: 0

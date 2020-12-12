@@ -16135,9 +16135,12 @@ svg {
   background-color: rgba(0,0,0,.8);
   text-align: center;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
-  transition: opacity .5s
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
 }
 .portfolio-item .port-item-cont::before {
   position: absolute;
@@ -16188,6 +16191,21 @@ svg {
   height: 100%
 }
 .portfolio-item:hover .wrapper {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+.portfolio-item .wrapper {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -16290,6 +16308,9 @@ svg {
   max-width: 20px;
   margin-top: 15px;
   margin-left: 15px
+}
+.fw_form_fw_form .border-error {
+  border: 1px solid red!important
 }
 .masonry-container {
   padding: 0;
