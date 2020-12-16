@@ -12,13 +12,13 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 
-	$(".top-text h1").animated("fadeInDown", "fadeOutUp");	
+	$(".top-text h1").animated("fadeInDown", "fadeOutUp");
 	$(".top-text p, .section-header").animated("fadeInUp", "fadeOutDown");
 
 	$(".popup").magnificPopup({type:'image'});
 	$(".popup-content").magnificPopup({type:'inline',midClick: true});
 
-	$(".animation-1").animated("flipInY", "flipOutY");	
+	$(".animation-1").animated("flipInY", "flipOutY");
 	$(".animation-2").animated("fadeInLeft", "fadeOutLeft");
 	$(".animation-3").animated("fadeInRight", "fadeOutRight");
 
@@ -49,7 +49,7 @@ $(document).ready(function() {
 		$(".sandwich").toggleClass("active");
 	});
 
-	$(".top-mnu ul a").click(function() { 
+	$(".top-mnu ul a").click(function() {
 		$(".top-mnu").fadeOut(600);
 		$(".sandwich").toggleClass("active");
 		$(".top-text").css("opacity", "1");
@@ -63,11 +63,11 @@ $(document).ready(function() {
 		} else {
 			$(".top-text").css("opacity", ".1");
 			$(".top-mnu").fadeIn(600);
-			$(".top-mnu li a").addClass("fadeInUp animated");			
+			$(".top-mnu li a").addClass("fadeInUp animated");
 		};
 	});
 
-	$("input, select, textarea").jqBootstrapValidation(); 
+	$("input, select, textarea").jqBootstrapValidation();
 	$(".top-mnu ul a").mPageScroll2id();
 
 	$('.fw_form_fw_form').on('submit', function(){
@@ -128,9 +128,38 @@ $(document).ready(function() {
 	});
 
 
+	//Ajax вывод постов
+	var $mainBox = $('.masonry-container');
+
+    $('.filter_div li').click(function (e) {
+        e.preventDefault();
+
+        var idCat = $(this).attr('id');
+
+
+        ajaxCat(idCat);
+    });
+
+	function ajaxCat(idCat) {
+
+
+		jQuery.post(
+			myPlugin.ajaxurl,
+			{
+				action: 'category',
+				cat_name: idCat
+			},
+			function (response) {
+				$mainBox
+					.html(response)
+					.animate({opacity: 1}, 300);
+			});
+	}
+
+
+
+
 	$(".loader-inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 });
-$(window).ready(function() { 
 
-});

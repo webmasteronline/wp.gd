@@ -1,0 +1,1 @@
+D:/_workServer/OSPanel/domains/wp.gd/app/wp-content/plugins/query-monitor/wp-content/db.php
