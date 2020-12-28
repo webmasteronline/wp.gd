@@ -4,6 +4,8 @@ $color: #FF6347 //Theme skin
 $text_color: #888
 $main_color: #06187a
 $bg_light: #FAFAFA
+$site_t_color: #111
+$white: #fff
 
 
 @mixin kerning($kerning)
@@ -27,6 +29,18 @@ svg
 	path
 		fill: $text_color
 
+.category-head
+	background: $color
+	svg 
+		path
+			fill: $white
+
+.header-title
+	.site-title
+		a 
+			color: $site_t_color
+			&:hover
+				color: $color	
 .color_element
 	color: $color
 .fw_form_fw_form
@@ -97,6 +111,13 @@ section
 		&.active
 			color: #fff
 			border-bottom: 1px solid $color
+	ul
+		li
+			a 
+				text-decoration: none
+			&:hover
+				color: #fff
+				border-bottom: 1px solid $color
 
 .portfolio-item 
 	.port-item-cont

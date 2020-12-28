@@ -49,6 +49,30 @@ section,
 		margin-top: 0px
 		margin-bottom: 35px
 
+.category-head
+	height: 70px
+	display: flex
+	width: 100%
+	align-items: center
+	justify-content: center
+
+.header-title
+	display: flex
+	padding-top: 5vh
+	padding-bottom: 5vh
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	width: 100%
+	.site-title
+		font-size: 120px
+		font-family: Rufina
+		font-weight: 400
+		font-style: normal
+		a 
+			text-decoration: none
+			transition: ease 0.2s
+	
 section
 	padding: 70px 0 90px
 	h2
@@ -61,6 +85,10 @@ section
 		font-size: 13px
 		text-align: left
 		margin-bottom: 30px
+
+.navbar-brand
+	position: absolute
+	z-index: 200
 
 .s-descr-wrap
 	text-align: center
@@ -375,9 +403,11 @@ $h: 3px
 			font-size: 12px
 			cursor: pointer
 			line-height: 2
+			a 
+				text-decoration: none
 
 .portfolio-item 
-	display: none
+	//display: none
 	padding: 5px
 	img
 		width: 100%
@@ -391,7 +421,7 @@ $h: 3px
 		background-color: rgba(0,0,0,.8)
 		text-align: center
 		opacity: 0
-		transition: opacity 1s
+		transition: opacity 0.8s
 		display: flex
 		&::before
 			position: absolute
@@ -403,7 +433,7 @@ $h: 3px
 			height: 0
 			border-bottom: 3px solid transparent
 			border-left: 3px solid transparent
-			transition: all .8s ease
+			transition: all .5s ease
 			z-index: 0
 		&::after
 			position: absolute
@@ -415,7 +445,7 @@ $h: 3px
 			height: 0
 			border-top: 3px solid transparent
 			border-right: 3px solid transparent
-			transition: all .8s ease
+			transition: all .5s ease
 			z-index: 0
 	&:hover 
 		.port-item-cont
@@ -453,10 +483,19 @@ $h: 3px
 		display: inline-block
 		z-index: 10
 
+.mfp-bg
+	background: #0b0b0b
+	opacity: 0.8
+
+.mfp-close-btn-in 
+	.mfp-close
+		color: #fff
+		margin-top: 15px
+
 .port-descr
-	background-color: #fff
-	max-width: 500px
-	margin: auto
+	display: flex
+	justify-content: center
+	text-align: center
 	p,h3
 		padding: 20px 20px 0px 20px
 	h3
@@ -466,14 +505,27 @@ $h: 3px
 		font-weight: 400
 		margin-top: 20px
 		padding-top: 25px
+		color: #fff
 	img
-		width: 100%
+		width: auto
 		margin-top: 20px
 	p
-		margin-bottom: 0px
+		margin-bottom: 20px
+		color: #fff
+		max-width: 50%
+	.port-item-but
+		display: flex
+		justify-content: space-between
+		align-items: center
+		width: 100%
 
 .modal-box-content
 	position: relative
+	display: flex
+	flex-direction: column
+	align-items: center
+	a
+		text-decoration: none	
 
 .contact-box
 	margin-bottom: 30px

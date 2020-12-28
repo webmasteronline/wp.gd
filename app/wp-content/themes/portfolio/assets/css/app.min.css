@@ -13141,47 +13141,70 @@ screen and (max-height:300px) {
   font-family: roboto-example;
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/RobotoRegular/RobotoRegular.eot);
-  src: url(../fonts/RobotoRegular/RobotoRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/RobotoRegular/RobotoRegular.woff) format("woff"),url(../fonts/RobotoRegular/RobotoRegular.ttf) format("truetype")
+  src: url(../assets/fonts/RobotoRegular/RobotoRegular.eot);
+  src: url(../assets/fonts/RobotoRegular/RobotoRegular.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/RobotoRegular/RobotoRegular.woff) format("woff"),url(../assets/fonts/RobotoRegular/RobotoRegular.ttf) format("truetype")
 }
 @font-face {
   font-family: roboto-example;
   font-weight: 700;
   font-style: normal;
-  src: url(../fonts/RobotoBold/RobotoBold.eot);
-  src: url(../fonts/RobotoBold/RobotoBold.eot?#iefix) format("embedded-opentype"),url(../fonts/RobotoBold/RobotoBold.woff) format("woff"),url(../fonts/RobotoBold/RobotoBold.ttf) format("truetype")
+  src: url(../assets/fonts/RobotoBold/RobotoBold.eot);
+  src: url(../assets/fonts/RobotoBold/RobotoBold.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/RobotoBold/RobotoBold.woff) format("woff"),url(../assets/fonts/RobotoBold/RobotoBold.ttf) format("truetype")
 }
 @font-face {
   font-family: Raleway;
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/RalewayRegular/RalewayRegular.eot);
-  src: url(../fonts/RalewayRegular/RalewayRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/RalewayRegular/RalewayRegular.woff) format("woff"),url(../fonts/RalewayRegular/RalewayRegular.ttf) format("truetype")
+  src: url(../assets/fonts/RalewayRegular/RalewayRegular.eot);
+  src: url(../assets/fonts/RalewayRegular/RalewayRegular.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/RalewayRegular/RalewayRegular.woff) format("woff"),url(../assets/fonts/RalewayRegular/RalewayRegular.ttf) format("truetype")
 }
 @font-face {
   font-family: Raleway;
   font-weight: 700;
   font-style: normal;
-  src: url(../fonts/RalewayBold/RalewayBold.eot);
-  src: url(../fonts/RalewayBold/RalewayBold.eot?#iefix) format("embedded-opentype"),url(../fonts/RalewayBold/RalewayBold.woff) format("woff"),url(../fonts/RalewayBold/RalewayBold.ttf) format("truetype")
+  src: url(../assets/fonts/RalewayBold/RalewayBold.eot);
+  src: url(../assets/fonts/RalewayBold/RalewayBold.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/RalewayBold/RalewayBold.woff) format("woff"),url(../assets/fonts/RalewayBold/RalewayBold.ttf) format("truetype")
 }
 @font-face {
   font-family: Raleway;
   font-weight: 300;
   font-style: normal;
-  src: url(../fonts/RalewayLight/RalewayLight.eot);
-  src: url(../fonts/RalewayLight/RalewayLight.eot?#iefix) format("embedded-opentype"),url(../fonts/RalewayLight/RalewayLight.woff) format("woff"),url(../fonts/RalewayLight/RalewayLight.ttf) format("truetype")
+  src: url(../assets/fonts/RalewayLight/RalewayLight.eot);
+  src: url(../assets/fonts/RalewayLight/RalewayLight.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/RalewayLight/RalewayLight.woff) format("woff"),url(../assets/fonts/RalewayLight/RalewayLight.ttf) format("truetype")
 }
 @font-face {
   font-family: Raleway;
   font-weight: 600;
   font-style: normal;
-  src: url(../fonts/RalewaySemiBold/RalewaySemiBold.eot);
-  src: url(../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix) format("embedded-opentype"),url(../fonts/RalewaySemiBold/RalewaySemiBold.woff) format("woff"),url(../fonts/RalewaySemiBold/RalewaySemiBold.ttf) format("truetype")
+  src: url(../assets/fonts/RalewaySemiBold/RalewaySemiBold.eot);
+  src: url(../assets/fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/RalewaySemiBold/RalewaySemiBold.woff) format("woff"),url(../assets/fonts/RalewaySemiBold/RalewaySemiBold.ttf) format("truetype")
+}
+@font-face {
+  font-family: Rufina;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-regular.eot);
+  src: url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-regular.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-regular.woff) format("woff"),url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-regular.ttf) format("truetype")
+}
+@font-face {
+  font-family: Rufina;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-700.eot);
+  src: url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-700.eot?#iefix) format("embedded-opentype"),url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-700.woff) format("woff"),url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-700.ttf) format("truetype")
 }
 @font-face {
   font-family: Raleway;
   src: url(../fonts/RalewayRegular/RalewayRegular.woff) format("woff")
+}
+@font-face {
+  font-family: Rufina;
+  src: url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-regular.woff) format("woff")
+}
+@font-face {
+  font-family: Rufina;
+  src: url(../assets/fonts/rufina-v8-latin/rufina-v8-latin-700.woff) format("woff");
+  font-weight: 700
 }
 @font-face {
   font-family: Raleway;
@@ -15547,6 +15570,18 @@ p {
 svg path {
   fill: #888
 }
+.category-head {
+  background: tomato
+}
+.category-head svg path {
+  fill: #fff
+}
+.header-title .site-title a {
+  color: #111
+}
+.header-title .site-title a:hover {
+  color: tomato
+}
 .color_element {
   color: tomato
 }
@@ -15619,6 +15654,13 @@ section h3 {
   letter-spacing: 2px
 }
 .s-portfolio li.active {
+  color: #fff;
+  border-bottom: 1px solid tomato
+}
+.s-portfolio ul li a {
+  text-decoration: none
+}
+.s-portfolio ul li:hover {
   color: #fff;
   border-bottom: 1px solid tomato
 }
@@ -15723,6 +15765,49 @@ section h3 {
   margin-top: 0;
   margin-bottom: 35px
 }
+.category-head {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%
+}
+.header-title .site-title {
+  font-size: 120px;
+  font-family: Rufina;
+  font-weight: 400;
+  font-style: normal
+}
+.header-title .site-title a {
+  text-decoration: none;
+  -webkit-transition: ease .2s;
+  -o-transition: ease .2s;
+  transition: ease .2s
+}
 section {
   padding: 70px 0 90px
 }
@@ -15737,6 +15822,10 @@ section .personal_header {
   font-size: 13px;
   text-align: left;
   margin-bottom: 30px
+}
+.navbar-brand {
+  position: absolute;
+  z-index: 200
 }
 .s-descr-wrap {
   text-align: center
@@ -16118,8 +16207,10 @@ svg {
   cursor: pointer;
   line-height: 2
 }
+.s-portfolio ul li a {
+  text-decoration: none
+}
 .portfolio-item {
-  display: none;
   padding: 5px
 }
 .portfolio-item img {
@@ -16135,9 +16226,9 @@ svg {
   background-color: rgba(0,0,0,.8);
   text-align: center;
   opacity: 0;
-  -webkit-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  -webkit-transition: opacity .8s;
+  -o-transition: opacity .8s;
+  transition: opacity .8s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex
@@ -16153,9 +16244,9 @@ svg {
   height: 0;
   border-bottom: 3px solid transparent;
   border-left: 3px solid transparent;
-  -webkit-transition: all .8s ease;
-  -o-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
   z-index: 0
 }
 .portfolio-item .port-item-cont::after {
@@ -16169,9 +16260,9 @@ svg {
   height: 0;
   border-top: 3px solid transparent;
   border-right: 3px solid transparent;
-  -webkit-transition: all .8s ease;
-  -o-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
   z-index: 0
 }
 .portfolio-item:hover .port-item-cont {
@@ -16235,10 +16326,22 @@ svg {
   display: inline-block;
   z-index: 10
 }
+.mfp-bg {
+  background: #0b0b0b;
+  opacity: .8
+}
+.mfp-close-btn-in .mfp-close {
+  color: #fff;
+  margin-top: 15px
+}
 .port-descr {
-  background-color: #fff;
-  max-width: 500px;
-  margin: auto
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center
 }
 .port-descr h3,
 .port-descr p {
@@ -16250,17 +16353,45 @@ svg {
   text-transform: uppercase;
   font-weight: 400;
   margin-top: 20px;
-  padding-top: 25px
+  padding-top: 25px;
+  color: #fff
 }
 .port-descr img {
-  width: 100%;
+  width: auto;
   margin-top: 20px
 }
 .port-descr p {
-  margin-bottom: 0
+  margin-bottom: 20px;
+  color: #fff;
+  max-width: 50%
+}
+.port-descr .port-item-but {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%
 }
 .modal-box-content {
-  position: relative
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+.modal-box-content a {
+  text-decoration: none
 }
 .contact-box {
   margin-bottom: 30px
@@ -16336,6 +16467,9 @@ svg {
   .right .resume-icon {
     margin-bottom: 20px
   }
+  .port-descr p {
+    max-width: 100%
+  }
 }
 @media (max-width:575.98px) {
   .top-wrapper .top-text h1 {
@@ -16356,5 +16490,15 @@ svg {
   }
   .main-footer .social-wrap ul {
     padding-left: 0
+  }
+}
+@media screen and (max-width:380px) {
+  .top-wrapper .top-text h1 {
+    font-size: 1.5em;
+    margin-right: 0;
+    margin-left: 0
+  }
+  .top-wrapper .top-text p {
+    max-width: 320px
   }
 }
