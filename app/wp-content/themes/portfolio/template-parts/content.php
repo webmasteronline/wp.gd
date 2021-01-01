@@ -6,8 +6,8 @@ if ( has_post_thumbnail() ){
 }
 ?>
 
-<div class="fh5co-portfolio-description">
+<div class="">
     <h2><?php the_title(); ?></h2>
-    <img src="<?php echo $img_url[0]; ?>" alt="">
+    <div class="img-box"><img src="<?php echo $img_url[0]; ?>" alt=""></div>
     <?php the_content(''); ?>
 </div>

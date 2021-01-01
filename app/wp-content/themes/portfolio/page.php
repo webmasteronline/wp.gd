@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-fggrg serg s ere g
+PAGE
 	<main id="primary" class="site-main">
 
 		<?php

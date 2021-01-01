@@ -21,6 +21,7 @@ let paths = {
 			'app/wp-content/themes/portfolio/assets/libs/jqBootstrapValidation/jqBootstrapValidation.js',
 			'app/wp-content/themes/portfolio/assets/libs/imagesloaded/imagesloaded.pkgd.min.js',
 			'app/wp-content/themes/portfolio/assets/libs/imagefill/jquery-imagefill.js',
+			'app/wp-content/themes/portfolio/assets/libs/font-awesome/js/all.min.js',
 			'app/wp-content/themes/portfolio/assets/libs/masonry/masonry.pkgd.min.js',
 			baseDir + '/assets/js/common.js' // app.js. Always at the end
 
@@ -33,6 +34,7 @@ let paths = {
 			'app/wp-content/themes/portfolio/assets/libs/bootstrap/dist/css/bootstrap-reboot.min.css',
 			'app/wp-content/themes/portfolio/assets/libs/bootstrap/dist/css/bootstrap-grid.min.css',
 			'app/wp-content/themes/portfolio/assets/libs/bootstrap/dist/css/bootstrap.min.css',
+			'app/wp-content/themes/portfolio/assets/libs/font-awesome/css/all.min.css',
 			'app/wp-content/themes/portfolio/assets/libs/font-awesome/css/font-awesome.min.css',
 			'app/wp-content/themes/portfolio/assets/libs/linea/styles.css',
 			'app/wp-content/themes/portfolio/assets/libs/magnific-popup/magnific-popup.css',			//'app/wp-content/themes/portfolio/assets/libs/bootstrap/scss/bootstrap-reboot.scss',

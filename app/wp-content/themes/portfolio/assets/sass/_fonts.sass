@@ -1,13 +1,13 @@
 @import "_mixins/font-face"
 
-+font-face("roboto-example", "../assets/fonts/RobotoRegular/RobotoRegular")
-+font-face("roboto-example", "../assets/fonts/RobotoBold/RobotoBold", bold)
-+font-face("Raleway", "../assets/fonts/RalewayRegular/RalewayRegular", normal)
-+font-face("Raleway", "../assets/fonts/RalewayBold/RalewayBold", 700)
-+font-face("Raleway", "../assets/fonts/RalewayLight/RalewayLight", 300)
-+font-face("Raleway", "../assets/fonts/RalewaySemiBold/RalewaySemiBold", 600)
-+font-face("Rufina", "../assets/fonts/rufina-v8-latin/rufina-v8-latin-regular", 400)
-+font-face("Rufina", "../assets/fonts/rufina-v8-latin/rufina-v8-latin-700", 400)
++font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular")
++font-face("fontawesome", "../libs/font-awesome/fonts/fontawesome-webfont", normal)
++font-face("Raleway", "../fonts/RalewayRegular/RalewayRegular", normal)
++font-face("Raleway", "../fonts/RalewayBold/RalewayBold", 700)
++font-face("Raleway", "../fonts/RalewayLight/RalewayLight", 300)
++font-face("Raleway", "/fonts/RalewaySemiBold/RalewaySemiBold", 600)
++font-face("Rufina", "/fonts/rufina-v8-latin/rufina-v8-latin-regular", 400)
++font-face("Rufina", "../fonts/rufina-v8-latin/rufina-v8-latin-700", 400)
 
 @font-face
 	font-family: 'Raleway'
@@ -15,11 +15,11 @@
 
 @font-face
 	font-family: 'Rufina'
-	src: url('../assets/fonts/rufina-v8-latin/rufina-v8-latin-regular.woff') format('woff')
+	src: url('../fonts/rufina-v8-latin/rufina-v8-latin-regular.woff') format('woff')
 
 @font-face
 	font-family: 'Rufina'
-	src: url('../assets/fonts/rufina-v8-latin/rufina-v8-latin-700.woff') format('woff')
+	src: url('../fonts/rufina-v8-latin/rufina-v8-latin-700.woff') format('woff')
 	font-weight: 700
 
 @font-face
@@ -31,4 +31,8 @@
 	font-family: 'Raleway'
 	src: url('../fonts/RalewayExtraBold.woff') format('woff')
 	font-weight: 800
+
+@font-face
+	font-family: 'fontawesome'
+	src: url('../libs/font-awesome/fonts/fontawesome-webfont.woff') format('woff')
 

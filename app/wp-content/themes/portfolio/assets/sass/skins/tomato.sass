@@ -6,6 +6,7 @@ $main_color: #06187a
 $bg_light: #FAFAFA
 $site_t_color: #111
 $white: #fff
+$cat_head_nav: #fff
 
 
 @mixin kerning($kerning)
@@ -34,6 +35,11 @@ svg
 	svg 
 		path
 			fill: $white
+
+.nav-title
+	svg 
+		path
+			fill: $color
 
 .header-title
 	.site-title
@@ -64,7 +70,10 @@ svg
 		background-color: #fff
 	a
 		color: #fff
-
+.menu
+	li 
+		a 
+			color: $cat_head_nav
 .top-mnu
 	a:hover
 		color: $color
