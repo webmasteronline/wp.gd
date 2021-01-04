@@ -6,8 +6,7 @@ if ( has_post_thumbnail() ){
 }
 ?>
 
-<div class="">
+
     <h2><?php the_title(); ?></h2>
     <div class="img-box"><img src="<?php echo $img_url[0]; ?>" alt=""></div>
     <?php the_content(''); ?>
-</div>

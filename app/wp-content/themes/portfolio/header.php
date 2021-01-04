@@ -30,17 +30,22 @@
         <div class="container-fluid ">
             <div class="row">
                 <div class="category-head">
-                    <div class="logo-container">
-                        <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                            <?php  echo portfolio_theme_option('logo_img_svg') ?>
-                        </a>
+                    <div class="category-head-body">
+                        <div class="logo-container">
+                            <a class="navbar-brand" href="<?php echo home_url(); ?>">
+                                <?php  echo portfolio_theme_option('logo_img_svg') ?>
+                            </a>
+                        </div>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <?php
+                        wp_nav_menu( array(
+                            'theme_location' => 'menu-2',
+                            'container_class' => 'top-menu-categ'
+                        ) );
+                        ?>
                     </div>
-                    <?php
-                    wp_nav_menu( array(
-                        'theme_location' => 'menu-2',
-                        'container_class' => 'top-mnu1'
-                    ) );
-                    ?>
                 </div>
             </div>
             <div class="row">

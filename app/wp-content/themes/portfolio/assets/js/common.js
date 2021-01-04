@@ -1,7 +1,11 @@
 $(document).ready(function() {
 
 
+	$('.header__burger').click(function(event) {
+			$('.header__burger,.top-menu-categ').toggleClass('active');
+			$('body').toggleClass('lock'); // отключаем скрол у контента когда открыто мобильное меню
 
+	});
 	//$("#portfolio_grid").mixItUp();
 
 	$(".s-portfolio li").click(function() {

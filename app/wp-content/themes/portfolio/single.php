@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-    <div class="container-fluid">
+    <div class="container">
         <div class="portfolio-description">
         <div class="row">
             <div class="col">
@@ -18,8 +18,8 @@ get_header();
                     <?php get_template_part('template-parts/content', get_post_format());
                     the_post_navigation(
                         array(
-                            'prev_text' => '<span class="nav-subtitle"></span> <span class="nav-title"><i class="fas fa-arrow-alt-circle-left"></i></span>',
-                            'next_text' => '<span class="nav-subtitle"></span> <span class="nav-title"><i class="fas fa-arrow-alt-circle-right"></i></span>',
+                            'prev_text' => '<span class="nav-subtitle"></span> <span class="nav-title"><span class="title">%title</span><i class="fas fa-arrow-alt-circle-left"></i></span>',
+                            'next_text' => '<span class="nav-subtitle"></span> <span class="nav-title"><span class="title">%title</span><i class="fas fa-arrow-alt-circle-right"></i></span>',
                         )
                     );
                     // If comments are open or we have at least one comment, load up the comment template.
@@ -29,11 +29,6 @@ get_header();
                 endwhile; ?>
             </div>
         </div>
-<!--        <div class="row">-->
-<!--            <div class="col">-->
-<!--                --><?php //// get_sidebar(); ?>
-<!--            </div>-->
-<!--        </div>-->
         </div>
     </div>
 
