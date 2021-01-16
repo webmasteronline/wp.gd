@@ -21198,6 +21198,9 @@ svg {
   -ms-flex-align: center;
   align-items: center
 }
+.contact-page section {
+  padding-top: 20px
+}
 @media (max-width:767.98px) {
   .resume_container .left,
   .right {

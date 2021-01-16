@@ -45,16 +45,11 @@ let paths = {
 	},
 
 	images: {
-		src:  baseDir + '/images/src/**/*',
-		dest: baseDir + '/images/dest',
+		src:  baseDir + '/assets/img/**/*',
+		dest: baseDir + '/assets/img/dest',
 	},
 
-	deploy: {
-		hostname:    'username@yousite.com', // Deploy hostname
-		destination: 'yousite/public_html/', // Deploy destination
-		include:     [/* '*.htaccess' */], // Included files to deploy
-		exclude:     [ '**/Thumbs.db', '**/*.DS_Store' ], // Excluded files from deploy
-	},
+
 
 	cssOutputName: 'app.min.css',
 	jsOutputName:  'app.min.js',
@@ -77,6 +72,7 @@ const imagemin     = require('gulp-imagemin');
 const newer        = require('gulp-newer');
 const rsync        = require('gulp-rsync');
 const del          = require('del');
+const	ftp          = require('vinyl-ftp');
 
 function browsersync() {
 	browserSync.init({
@@ -116,20 +112,28 @@ function cleanimg() {
 	return del('' + paths.images.dest + '/**/*', { force: true })
 }
 
-function deploy() {
-	return src(baseDir + '/')
-	.pipe(rsync({
-		root: baseDir + '/',
-		hostname: paths.deploy.hostname,
-		destination: paths.deploy.destination,
-		include: paths.deploy.include,
-		exclude: paths.deploy.exclude,
-		recursive: true,
-		archive: true,
-		silent: false,
-		compress: true
-	}))
-}
+const deploy = () => {
+    let conn = ftp.create( {
+        host:     'ftp4.hostland.ru',
+        user:     'host1310602',
+        password: '26ad7cf5',
+        parallel: 10,
+        log: gutil.log
+    } );
+
+    let globs = [
+		'app/wp-content/themes/portfolio/**'
+		];
+
+		return src(globs,{
+			base: 'app/wp-content/themes/portfolio',
+			buffer: true
+		})
+		.pipe( conn.dest( '/webmasteronline.ru/htdocs/www/wp-content/themes/portfolio' ));
+
+};
+
+
 
 function startwatch() {
 	watch(baseDir  + '/assets/' + preprocessor + '/**/*', {usePolling: true}, styles);

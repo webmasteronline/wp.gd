@@ -9,13 +9,18 @@
 
 get_header();
 ?>
+
+<?php while (have_posts()) : the_post(); ?>
+    <?php get_template_part('template-parts/content', 'post');
+
+endwhile; ?>
     <div class="container">
         <div class="portfolio-description">
         <div class="row">
             <div class="col">
 
                 <?php while (have_posts()) : the_post(); ?>
-                    <?php get_template_part('template-parts/content', get_post_format());
+                    <?php 
                     the_post_navigation(
                         array(
                             'prev_text' => '<span class="nav-subtitle"></span> <span class="nav-title"><span class="title">%title</span><i class="fas fa-arrow-alt-circle-left"></i></span>',
