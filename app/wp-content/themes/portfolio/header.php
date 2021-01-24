@@ -26,7 +26,7 @@
         <div class="loader-inner"></div>
     </div>
     <header>
-        <div class="container-fluid ">
+        <div class="container-fluid">
             <div class="row">
                 <div class="category-head">
                     <div class="category-head-body">
@@ -34,6 +34,10 @@
                             <a class="navbar-brand" href="<?php echo home_url(); ?>">
                                 <?php  echo portfolio_theme_option('logo_img_svg') ?>
                             </a>
+                            <ul class="logo-title-desc">
+                                <li><p class="site-title"><a href="<?php echo home_url(); ?>"><?php echo get_bloginfo( 'name' ); ?></a></p></li>
+                                <li><p class="desc"><?php echo get_bloginfo( 'description' ); ?></p></li>
+                            </ul>
                         </div>
                         <div class="header__burger">
                             <span></span>
@@ -49,8 +53,8 @@
             </div>
             <div class="row">
                 <div class="header-title">
-                    <p class="site-title"><a href="<?php echo home_url(); ?>"><?php echo get_bloginfo( 'name' ); ?></a></p>
-                    <p><?php echo get_bloginfo( 'description' ); ?></p>
+                    
+                    
                 </div>
             </div>
 

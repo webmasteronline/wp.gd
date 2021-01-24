@@ -19,6 +19,10 @@ get_header();
                         );
                         $categories = get_categories($cat_args);
 
+                        debug($categories);
+                        
+                        $posttags = get_the_tags();
+                        debug($posttags);
                         foreach ($categories as $cat) :
                             ?>
                             <li class="filter" ><a data-category="<?php echo $cat->term_id; ?>" href="<?php echo get_category_link($cat->term_id); ?>" id="frontend"><?php echo $cat->name ?></a></li>
@@ -96,5 +100,6 @@ get_header();
     </section>
 
 <?php
+get_sidebar();
 get_footer();
 ?>

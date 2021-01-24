@@ -32,7 +32,7 @@
                 <div class="col-md-12">
                     <div class="logo-container">
                         <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                            <?php  echo portfolio_theme_option('logo_img_svg') ?>
+                            <?php  //echo portfolio_theme_option('logo_img_svg') ?>
                         </a>
                     </div>
                     <button class="toggle-mnu">

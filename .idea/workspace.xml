@@ -20,28 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e4a622d-b1e5-480c-9012-d3107b5b7a37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/___index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/__content-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/aboutus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/skins/tomato.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/skins/tomato.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-none.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-none.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template/portfolio.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp_gd.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +82,7 @@
       <workItem from="1610358077530" duration="9614000" />
       <workItem from="1610449338966" duration="2978000" />
       <workItem from="1610808533470" duration="6828000" />
+      <workItem from="1611397360289" duration="1187000" />
     </task>
     <servers />
   </component>

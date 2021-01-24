@@ -7,7 +7,8 @@ $bg_light: #FAFAFA
 $site_t_color: #111
 $white: #fff
 $cat_head_nav: #fff
-
+$cat_head_bg: #F9F9FF
+$cat_head_color: #000000
 
 @mixin kerning($kerning)
 	letter-spacing: $kerning + px
@@ -32,10 +33,10 @@ svg
 
 .category-head
 	&::before
-		background-color: $color
+		background-color: $cat_head_bg
 	svg 
 		path
-			fill: $white
+			fill: $cat_head_color
 
 .nav-title
 	svg 

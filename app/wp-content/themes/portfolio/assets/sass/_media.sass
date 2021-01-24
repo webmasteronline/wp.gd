@@ -5,31 +5,14 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
-
-// ≥992px
-+media-breakpoint-down(md)
-
-// ≥768px
-+media-breakpoint-down(sm)
-	.resume_container .left, .right
-		text-align: left
-		border-right: none
-		h3
-			text-align: left
-			margin-bottom: 20px
-			margin-top: 20px
-		.resume-icon
-			margin-bottom: 20px
-	.port-descr
-		p
-			max-width: 100%
+	//menu mobile
 	body
 		&.lock
 			overflow: hidden
 	.category-head-body
 		justify-content: space-between
 		padding: 0	15px 0 15px
-		height: 55px
+		height: 100px
 		.menu
 			display: block
 			padding-left: 0
@@ -68,7 +51,7 @@
 		z-index: 3		
 		&::before,&::after
 			content: ''
-			background-color: #fff
+			background-color: rgba(0,0,0,.8)
 			position: absolute
 			width: 100%
 			height: 2px
@@ -79,7 +62,7 @@
 		&::after
 			bottom: 0
 		span 
-			background-color: #fff
+			background-color: rgba(0,0,0,.8)
 			position: absolute
 			width: 100%
 			height: 2px
@@ -96,8 +79,54 @@
 				bottom: 9px
 		&.active
 			span 
-				transform: scale(0)			
+				transform: scale(0)
+	//END menu mobile
 
+// ≥992px
++media-breakpoint-down(md)
+
+
+@media screen and (max-width: 1770px)
+	.category-head
+		.menu
+			margin-right: 10px
+			li
+				margin-left: 25px
+	.category-head-body
+		padding: 0 25px
+
+
+
+// ≥768px
++media-breakpoint-down(sm)
+	.resume_container .left, .right
+		text-align: left
+		border-right: none
+		h3
+			text-align: left
+			margin-bottom: 20px
+			margin-top: 20px
+		.resume-icon
+			margin-bottom: 20px
+	.port-descr
+		p
+			max-width: 100%
+	
+
+@media screen and (max-width: 1300px)
+	.category-head-body 
+		.logo-container 
+			.logo-title-desc 
+				.site-title
+					margin-top: 0
+					a
+					.desc
+	.category-head 
+		.menu
+			margin-right: 0
+			li 
+				a
+					font-size: 16px
 
 // ≥576px
 +media-breakpoint-down(xs)
