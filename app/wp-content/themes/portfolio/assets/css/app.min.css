@@ -17765,11 +17765,18 @@ screen and (max-height:300px) {
   padding-top: 0
 }
 @font-face {
-  font-family: roboto-example;
+  font-family: RobotoRegular;
   font-weight: 400;
   font-style: normal;
   src: url(../fonts/RobotoRegular/RobotoRegular.eot);
   src: url(../fonts/RobotoRegular/RobotoRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/RobotoRegular/RobotoRegular.woff) format("woff"),url(../fonts/RobotoRegular/RobotoRegular.ttf) format("truetype")
+}
+@font-face {
+  font-family: Roboto-Thin;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Roboto-Thin/RobotoRegular.eot);
+  src: url(../fonts/Roboto-Thin/RobotoRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/Roboto-Thin/RobotoRegular.woff) format("woff"),url(../fonts/Roboto-Thin/RobotoRegular.ttf) format("truetype")
 }
 @font-face {
   font-family: fontawesome;
@@ -17779,11 +17786,11 @@ screen and (max-height:300px) {
   src: url(../libs/font-awesome/fonts/fontawesome-webfont.eot?#iefix) format("embedded-opentype"),url(../libs/font-awesome/fonts/fontawesome-webfont.woff) format("woff"),url(../libs/font-awesome/fonts/fontawesome-webfont.ttf) format("truetype")
 }
 @font-face {
-  font-family: Raleway;
+  font-family: RobotoBold;
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/RalewayRegular/RalewayRegular.eot);
-  src: url(../fonts/RalewayRegular/RalewayRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/RalewayRegular/RalewayRegular.woff) format("woff"),url(../fonts/RalewayRegular/RalewayRegular.ttf) format("truetype")
+  src: url(../fonts/RobotoBold/RobotoBold.eot);
+  src: url(../fonts/RobotoBold/RobotoBold.eot?#iefix) format("embedded-opentype"),url(../fonts/RobotoBold/RobotoBold.woff) format("woff"),url(../fonts/RobotoBold/RobotoBold.ttf) format("truetype")
 }
 @font-face {
   font-family: Raleway;
@@ -17821,8 +17828,9 @@ screen and (max-height:300px) {
   src: url(../fonts/rufina-v8-latin/rufina-v8-latin-700.eot?#iefix) format("embedded-opentype"),url(../fonts/rufina-v8-latin/rufina-v8-latin-700.woff) format("woff"),url(../fonts/rufina-v8-latin/rufina-v8-latin-700.ttf) format("truetype")
 }
 @font-face {
-  font-family: Raleway;
-  src: url(../fonts/RalewayRegular/RalewayRegular.woff) format("woff")
+  font-family: RobotoBold;
+  src: url(../fonts/RobotoBold/RobotoBold.woff) format("woff");
+  font-weight: 700
 }
 @font-face {
   font-family: Rufina;
@@ -17832,6 +17840,11 @@ screen and (max-height:300px) {
   font-family: Rufina;
   src: url(../fonts/rufina-v8-latin/rufina-v8-latin-700.woff) format("woff");
   font-weight: 700
+}
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto-Thin/Roboto-Thin.woff) format("woff");
+  font-weight: 100
 }
 @font-face {
   font-family: Raleway;
@@ -21300,7 +21313,20 @@ svg {
   }
 }
 .post {
-  margin-top: 77px
+  font-family: Roboto serif;
+  margin-top: 313px
+}
+.post .col-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 43.66667%;
+  flex: 0 0 43.66667%;
+  max-width: 43.66667%
+}
+.post .col-7 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 56.33333%;
+  flex: 0 0 56.33333%;
+  max-width: 56.33333%
 }
 .post .left-col {
   display: -webkit-box;
@@ -21309,13 +21335,93 @@ svg {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-right: 9px;
+  padding-top: 7px
+}
+.post .left-col .post-content {
+  width: 560px
 }
 .post .left-col .taxonomy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 500px
+  width: 560px;
+  height: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.post .left-col .taxonomy .yoast-breadcrumbs a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: RobotoRegular;
+  letter-spacing: .5px
+}
+.post .left-col .taxonomy .hashtag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+.post .left-col .taxonomy .hashtag a {
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-family: Roboto-Thin;
+  font-style: normal;
+  letter-spacing: .1px
+}
+.post .left-col .taxonomy a {
+  color: #000;
+  text-decoration: none
+}
+.post .left-col .post-content h2 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 106px;
+  font-family: RobotoBold;
+  letter-spacing: .1px
+}
+.post .left-col .post-content p {
+  font-family: RobotoRegular;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: -.1px;
+  color: #000;
+  font-style: normal;
+  padding-top: 57px;
+  margin-bottom: 10px
+}
+.post .left-col .post-content p a {
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  border: #09009c 3px solid;
+  font-size: 30px;
+  font-family: RobotoBold;
+  color: #000;
+  width: 283px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+.post .left-col .feed-b-box {
+  background-color: #f9f9ff
 }
 .post .col-7 {
   padding: 0

@@ -20,17 +20,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e4a622d-b1e5-480c-9012-d3107b5b7a37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/css/1x1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/css/newstars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/css/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/css/wp-customer-reviews-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/css/wp-customer-reviews-generated.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/css/wp-customer-reviews-generated.css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/admin/tools/delete-all-reviews.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/admin/tools/reimport-2x.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/admin/tools/remove-duplicates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/admin/wp-customer-reviews-3-admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/goatee-php/wpcr-goatee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/migrate/2x-3x.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/migrate/3x-3x.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_form_rating_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_form_review_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_form_text_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_holder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_item_aggregate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_item_reviews.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/frontend_review_rating_stars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/readme_templates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/include/templates/wp-customer-reviews-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/js/wp-customer-reviews-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/js/wp-customer-reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/wp-customer-reviews-3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Roboto-Thin/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Roboto-Thin/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Roboto-Thin/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/1 post page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/1 post page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/DODGE-RAM-00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/DODGE-RAM-00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/logoDG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/logoDG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp_gd (1).sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/rufina-v8-latin.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_fonts.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/skins/tomato.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/skins/tomato.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header-front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header-front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp_gd.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +150,7 @@
       <workItem from="1610449338966" duration="2978000" />
       <workItem from="1610808533470" duration="6828000" />
       <workItem from="1611397360289" duration="1187000" />
+      <workItem from="1612092614222" duration="497000" />
     </task>
     <servers />
   </component>

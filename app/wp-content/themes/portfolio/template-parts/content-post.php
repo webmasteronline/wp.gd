@@ -6,7 +6,7 @@ if ( has_post_thumbnail() ){
 }
 ?>
 
-<h2><?php the_title(); ?></h2>
+
 
 
 <div class="post">
@@ -18,13 +18,28 @@ if ( has_post_thumbnail() ){
 						if ( function_exists('yoast_breadcrumb') ) {
 							yoast_breadcrumb( '<nav class="yoast-breadcrumbs">', '</nav>' );
 						}
-
-						wp_tag_cloud('');
-						//debug($cur_terms);
-
-					?>
+						?>
+						<div class="hashtag">
+							<?php
+								wp_tag_cloud(array(
+								'smallest'  => 20,
+								'largest'   => 20,
+								'unit'      => 'px',
+								));
+								//debug($cur_terms);
+							?>
+					</div>
 				</div>
-				<?php the_content(''); ?>
+				<div class="post-content">
+					<?php the_content(''); ?>
+				</div>
+				<div class="feed-b-box">
+					<h3>Would be grateful for your feedback</h3>
+					<?php
+echo do_shortcode('[WPCR_INSERT POSTID="$post->ID" NUM="3" SHOWFORM="1"]');
+					?>
+<?php //echo do_shortcode('[WPCR_SHOW POSTID="$post->ID" NUM="3" SHOWFORM="1"]'); ?>
+				</div>
 			</div>
 			<div class="col-7">
 				<div class="img-box"><img src="<?php echo $img_url[0]; ?>" alt="" width="<?php echo $img_url[1] ?>"></div>
