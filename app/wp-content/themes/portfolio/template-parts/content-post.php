@@ -10,9 +10,9 @@ if ( has_post_thumbnail() ){
 
 
 <div class="post">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-5 left-col">
+
+
+			<div class="left-col">
 				<div class="taxonomy">
 					<?php 
 						if ( function_exists('yoast_breadcrumb') ) {
@@ -36,14 +36,16 @@ if ( has_post_thumbnail() ){
 				<div class="feed-b-box">
 					<h3>Would be grateful for your feedback</h3>
 					<?php
-echo do_shortcode('[WPCR_INSERT POSTID="$post->ID" NUM="3" SHOWFORM="1"]');
+echo do_shortcode('[WPCR_INSERT POSTID="$post->ID" NUM="0"]');
 					?>
 <?php //echo do_shortcode('[WPCR_SHOW POSTID="$post->ID" NUM="3" SHOWFORM="1"]'); ?>
 				</div>
 			</div>
-			<div class="col-7">
+			<div class="right-col">
 				<div class="img-box"><img src="<?php echo $img_url[0]; ?>" alt="" width="<?php echo $img_url[1] ?>"></div>
+								<?php
+echo do_shortcode('[WPCR_SHOW POSTID="ALL" NUM="10"]');
+					?>
 			</div>
-		</div>
-	</div>
+			
 </div>

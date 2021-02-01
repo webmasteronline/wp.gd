@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+	
+	$('#wpcr3_fname').attr('placeholder','Your name');
+	$('#id_wpcr3_ftext').attr('placeholder','Comment');
 
 	$('.header__burger').click(function(event) {
 			$('.header__burger,.top-menu-categ').toggleClass('active');
