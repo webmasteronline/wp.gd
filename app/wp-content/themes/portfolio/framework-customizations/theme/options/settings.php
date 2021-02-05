@@ -21,6 +21,12 @@ $options = array(
                 'desc' => __('Image Header', 'portfolio'),
                 'help' => __('Some ...', 'portfolio')
             ),
+            'post_heart_icon' => array(
+                'type' => 'textarea',
+                'label' => __('Post Img SVG', 'portfolio'),
+                'desc' => __('enter the SVG data', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio')
+            ),
         ),
     ),
     'colors' => array(

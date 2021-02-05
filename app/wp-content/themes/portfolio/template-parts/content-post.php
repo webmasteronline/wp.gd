@@ -42,7 +42,10 @@ echo do_shortcode('[WPCR_INSERT POSTID="$post->ID" NUM="0"]');
 				</div>
 			</div>
 			<div class="right-col">
-				<div class="img-box"><img src="<?php echo $img_url[0]; ?>" alt="" width="<?php echo $img_url[1] ?>"></div>
+				<div class="img-box">
+                    <img src="<?php echo $img_url[0]; ?>" alt="" width="<?php echo $img_url[1] ?>">
+                    <div class="heart-like"><?php  echo portfolio_theme_option('post_heart_icon') ?></div>
+                </div>
 								<?php
 echo do_shortcode('[WPCR_SHOW POSTID="ALL" NUM="10"]');
 					?>

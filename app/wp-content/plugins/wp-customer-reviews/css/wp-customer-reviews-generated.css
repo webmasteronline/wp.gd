@@ -41,7 +41,7 @@ div.wpcr3_review div.wpcr3_review_custom { font-size:12px; float:left; margin-ri
 
 .wpcr3_respond_2 input { }
 .wpcr3_respond_2 input[type="text"]  { min-width:200px; }
-.wpcr3_respond_2 textarea { height:100px;	width:100%; }
+.wpcr3_respond_2 textarea { height:100px !important; min-width:500px; }
 .wpcr3_respond_2 small { padding:0 !important; margin:0 !important; }
 .wpcr3_respond_2 table, .wpcr3_respond_2 td { border:0 !important; border-style:none !important; }
 

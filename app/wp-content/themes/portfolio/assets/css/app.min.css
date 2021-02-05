@@ -21168,7 +21168,7 @@ svg {
   display: none
 }
 .category-head {
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;
@@ -21333,7 +21333,7 @@ svg {
 }
 .post {
   font-family: Roboto serif;
-  margin-top: 313px;
+  margin-top: 120px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -21343,6 +21343,17 @@ svg {
 }
 .post .right-col {
   width: 54.67%
+}
+.post .right-col .img-box {
+  position: relative
+}
+.post .right-col .img-box .heart-like {
+  position: absolute;
+  left: 0;
+  bottom: -100px
+}
+.post .right-col .img-box .heart-like svg {
+  width: 33px
 }
 .post .wpcr3_respond_2 {
   display: block
@@ -21354,11 +21365,14 @@ svg {
 .post .wpcr3_leave_text {
   display: none
 }
+.post .wpcr3_fconfirm2 {
+  margin-left: 40px
+}
 .post div .wpcr3_rating_style1 {
   line-height: 27px
 }
 .post div .wpcr3_rating_style1_base {
-  width: 148px;
+  width: 178px;
   height: 28px;
   line-height: 27px
 }
@@ -21368,21 +21382,30 @@ svg {
   line-height: 27px
 }
 .post div .wpcr3_rating_style1_status {
-  height: 27px;
-  line-height: 27px;
+  height: 28px;
+  line-height: 28px;
   width: 200px
 }
 .post div .wpcr3_rating_style1_score {
-  width: 144px;
+  width: 171px;
   height: 28px;
   line-height: 27px
 }
 .post div .wpcr3_rating_style1_score div {
-  height: 28px;
+  height: 29px;
   line-height: 27px
 }
 .post div .wpcr3_rating_style1_score div.wpcr3_rating_style1_score1 {
-  width: 20%
+  width: 16%
+}
+.post div .wpcr3_rating_style1_score div.wpcr3_rating_style1_score2 {
+  width: 37%
+}
+.post div .wpcr3_rating_style1_score div.wpcr3_rating_style1_score3 {
+  width: 58%
+}
+.post div .wpcr3_rating_style1_score div.wpcr3_rating_style1_score4 {
+  width: 79%
 }
 .post .wpcr3_rating_stars {
   margin-top: 17px;
@@ -21402,26 +21425,29 @@ svg {
 }
 .post .wpcr3_respond_2 textarea {
   margin-top: 57px;
-  margin-left: 42px;
+  margin-left: 40px;
   border: 1px solid #09009c;
   font-family: Robotolight;
   font-size: 18px;
   background-color: transparent;
   color: #000;
   padding: 25px 15px;
-  height: 145px;
+  height: 145px!important;
   width: 559px
 }
-.post .wpcr3_check_confirm {
-  display: none
+.post .wpcr3_clear,
+.post .wpcr3_dotline,
+.post .wpcr3_power {
+  display: none!important
 }
 .post .wpcr3_cancel_btn {
   display: none
 }
+.post .wpcr3_cancel_btn,
 .post .wpcr3_reviews_holder {
   display: none
 }
-.post .wpcr3_button_1 {
+.post .wpcr3_submit_btn {
   background-color: transparent;
   text-decoration: none;
   display: inline-block;
@@ -21439,7 +21465,10 @@ svg {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center
+  justify-content: center;
+  background: 0 0;
+  margin-left: 40px;
+  margin-top: 34px
 }
 .post .left-col {
   display: -webkit-box;
@@ -21465,7 +21494,7 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  min-height: 400px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -21551,7 +21580,8 @@ svg {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  padding-right: 43px
+  padding-right: 43px;
+  height: 100%
 }
 .post .left-col .feed-b-box h3 {
   width: 317px;
