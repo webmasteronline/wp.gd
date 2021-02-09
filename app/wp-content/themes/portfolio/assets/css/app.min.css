@@ -20591,12 +20591,6 @@ section .personal_header {
 .logo-container {
   float: left
 }
-svg {
-  height: 60px;
-  width: 60px;
-  z-index: 1;
-  position: relative
-}
 .toggle-mnu {
   width: 60px;
   height: 60px;
@@ -21339,7 +21333,8 @@ svg {
   display: inline-flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between
+  justify-content: space-between;
+  width: 100vw
 }
 .post .right-col {
   width: 54.67%
@@ -21350,10 +21345,41 @@ svg {
 .post .right-col .img-box .heart-like {
   position: absolute;
   left: 0;
-  bottom: -100px
+  bottom: -55px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
 }
 .post .right-col .img-box .heart-like svg {
   width: 33px
+}
+.post .right-col .img-box .heart-like svg path {
+  fill: #000;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s
+}
+.post .right-col .img-box .heart-like svg:hover path {
+  fill: red
+}
+.post .right-col .img-box .heart-like .is-active svg path {
+  fill: red
+}
+.post .right-col .img-box .heart-like .likecount {
+  font-family: RobotoRegular;
+  color: #969696;
+  font-size: 20px;
+  margin-left: 17px
+}
+.post .right-col .img-box .heart-like .likecount .like-t {
+  margin-left: 3px
+}
+.post .right-col .img-box .heart-like .like_ico {
+  height: 31px
 }
 .post .wpcr3_respond_2 {
   display: block

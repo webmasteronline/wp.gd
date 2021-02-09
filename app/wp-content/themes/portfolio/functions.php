@@ -159,13 +159,23 @@ function portfolio_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}*/
-
+    wp_localize_script('portfolio-scripts', 'ajax_var', array(
+        'url' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('ajax-nonce')
+    ));
     wp_localize_script('portfolio-scripts', 'myPlugin', array(
         'ajaxurl' => admin_url('admin-ajax.php'),
         'name' => wp_get_current_user() ->display_name
     ));
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_scripts' );
+
+//like-post
+
+
+
+//Endlike-post
+
 
 //function load_script(){
 //    wp_enqueue_script( 'ajax',get_template_directory_uri() . '/assets/js/ajax.js' , array('jquery'), NULL, true );
@@ -200,6 +210,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Ajax filter post category
  */
 require get_template_directory() . '/inc/ajax/ajax-filter-post.php';
+require get_template_directory() . '/inc/ajax/post-like.php';
 
 /**
  * Load Jetpack compatibility file.
