@@ -94,8 +94,75 @@
 				margin-left: 25px
 	.category-head-body
 		padding: 0 25px
+	.post 
+		.left-col 
+			.feed-b-box 
+				h3
+					margin-top: 15%
 
+@media screen and (max-width: 1632px)
+	.post 
+		.left-col
+			.taxonomy
+				min-height: 250px
+			.post-content
+				margin-bottom: 75px
 
+@media screen and (max-width: 1408px)
+	.post
+		.wpcr3_submit_btn, .wpcr3_fconfirm2
+			margin-left: 0
+		.wpcr3_respond_2
+			textarea
+				width: 95%
+				margin-left: 0
+				margin-top: 35px
+		.left-col
+			.post-content, .taxonomy
+				width: 100%
+				margin-right: 0px
+				padding-left: 55px
+				padding-right: 40px
+			.wpcr3_div_2
+				width: 100%
+			.feed-b-box
+				padding-left: 50px
+				.f_content
+					width: 100%
+		.wpcr3_review_form_text_field
+			input
+				margin-left: 0px
+				margin-top: 30px
+
+@media screen and (max-width: 1322px)
+	.post
+		.wpcr3_respond_2
+			textarea
+				min-width: 100%
+		.wpcr3_review_form_text_field
+			input
+				margin-left: 0px
+				margin-top: 15px
+				height: 40px
+		.wpcr3_rating_stars
+			margin-left: 0px
+		.wpcr3_submit_btn
+			width: 220px
+			height: 55px
+			font-size: 25px
+		.left-col
+			.post-content
+				p 
+					a			
+						width: 220px
+						height: 55px
+						font-size: 25px
+
+@media screen and (max-width: 1265px)
+	.post
+		.left-col
+			.taxonomy
+				min-height: 180px
 
 // ≥768px
 +media-breakpoint-down(sm)
@@ -128,6 +195,10 @@
 				a
 					font-size: 16px
 
+@media screen and (max-width: 1300px)
+	.post
+		.right-col				
+			display: none
 // ≥576px
 +media-breakpoint-down(xs)
 	.top-wrapper

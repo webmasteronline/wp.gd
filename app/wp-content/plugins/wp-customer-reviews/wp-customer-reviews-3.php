@@ -729,7 +729,7 @@ class WPCustomerReviews3 {
 	}
 	
 	function get_data_attr_wrapper($postid) {
-		return "data-wpcr3-content=\"{$postid}\"";
+		return "class=\"f_content\" data-wpcr3-content=\"{$postid}\"";
 	}
 
     function do_the_content($original_content, $fix = "wp") {

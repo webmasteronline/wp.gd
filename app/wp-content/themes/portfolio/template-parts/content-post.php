@@ -36,7 +36,7 @@ if ( has_post_thumbnail() ){
 				<div class="feed-b-box">
 					<h3>Would be grateful for your feedback</h3>
 					<?php
-echo do_shortcode('[WPCR_INSERT POSTID="$post->ID" NUM="0"]');
+                    echo do_shortcode('[WPCR_INSERT POSTID="$post->ID" NUM="0"]');
 					?>
 
 				</div>
@@ -45,11 +45,9 @@ echo do_shortcode('[WPCR_INSERT POSTID="$post->ID" NUM="0"]');
 				<div class="img-box">
                     <img src="<?php echo $img_url[0]; ?>" alt="" width="<?php echo $img_url[1] ?>">
                     <div class="heart-like"><?php  $icon=portfolio_theme_option('post_heart_icon') ?>
-
-<?php echo getPostLikeLink(get_the_ID(),$icon); ?>
+                    <?php echo getPostLikeLink(get_the_ID(),$icon); ?>
                     </div>
-         </div>
-
+                </div>
 			</div>
 			
 </div>

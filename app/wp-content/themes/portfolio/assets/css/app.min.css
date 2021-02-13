@@ -21558,10 +21558,19 @@ section .personal_header {
 }
 .post .left-col .post-content h2 {
   font-weight: 700;
-  font-size: 50px;
   margin-top: 106px;
   font-family: RobotoBold;
   letter-spacing: .1px
+}
+@media screen and (max-width:767px) {
+  .post .left-col .post-content h2 {
+    font-size: calc(25px + 42.5 * ((100vw - 320px)/ 1900))
+  }
+}
+@media screen and (min-width:767px) {
+  .post .left-col .post-content h2 {
+    font-size: calc(25px + 25 * (100vw / 1900))
+  }
 }
 .post .left-col .post-content p {
   font-family: RobotoRegular;
@@ -21611,11 +21620,20 @@ section .personal_header {
 }
 .post .left-col .feed-b-box h3 {
   width: 317px;
-  font-size: 40px;
   font-weight: 500;
   font-family: Robotomedium;
   letter-spacing: -.1px;
   margin-top: 203px
+}
+@media screen and (max-width:767px) {
+  .post .left-col .feed-b-box h3 {
+    font-size: calc(20px + 34 * ((100vw - 320px)/ 1900))
+  }
+}
+@media screen and (min-width:767px) {
+  .post .left-col .feed-b-box h3 {
+    font-size: calc(20px + 20 * (100vw / 1900))
+  }
 }
 .post .col-7 {
   padding: 0
@@ -21752,6 +21770,76 @@ section .personal_header {
   .category-head-body {
     padding: 0 25px
   }
+  .post .left-col .feed-b-box h3 {
+    margin-top: 15%
+  }
+}
+@media screen and (max-width:1632px) {
+  .post .left-col .taxonomy {
+    min-height: 250px
+  }
+  .post .left-col .post-content {
+    margin-bottom: 75px
+  }
+}
+@media screen and (max-width:1408px) {
+  .post .wpcr3_fconfirm2,
+  .post .wpcr3_submit_btn {
+    margin-left: 0
+  }
+  .post .wpcr3_respond_2 textarea {
+    width: 95%;
+    margin-left: 0;
+    margin-top: 35px
+  }
+  .post .left-col .post-content,
+  .post .left-col .taxonomy {
+    width: 100%;
+    margin-right: 0;
+    padding-left: 55px;
+    padding-right: 40px
+  }
+  .post .left-col .wpcr3_div_2 {
+    width: 100%
+  }
+  .post .left-col .feed-b-box {
+    padding-left: 50px
+  }
+  .post .left-col .feed-b-box .f_content {
+    width: 100%
+  }
+  .post .wpcr3_review_form_text_field input {
+    margin-left: 0;
+    margin-top: 30px
+  }
+}
+@media screen and (max-width:1322px) {
+  .post .wpcr3_respond_2 textarea {
+    min-width: 100%
+  }
+  .post .wpcr3_review_form_text_field input {
+    margin-left: 0;
+    margin-top: 15px;
+    height: 40px
+  }
+  .post .wpcr3_rating_stars {
+    margin-left: 0
+  }
+  .post .wpcr3_submit_btn {
+    width: 220px;
+    height: 55px;
+    font-size: 25px
+  }
+  .post .left-col .post-content p a {
+    width: 220px;
+    height: 55px;
+    font-size: 25px
+  }
+}
+@media screen and (max-width:1265px) {
+  .post .left-col .taxonomy {
+    min-height: 180px
+  }
 }
 @media (max-width:767.98px) {
   .resume_container .left,
@@ -21782,6 +21870,11 @@ section .personal_header {
   }
   .category-head .menu li a {
     font-size: 16px
+  }
+}
+@media screen and (max-width:1300px) {
+  .post .right-col {
+    display: none
   }
 }
 @media (max-width:575.98px) {

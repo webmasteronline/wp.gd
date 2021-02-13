@@ -20,205 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e4a622d-b1e5-480c-9012-d3107b5b7a37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/heart-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/inc/ajax/post-like.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/1 post page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/DODGE-RAM-00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/favicon/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/heart-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/logoDG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/portfolio-images/vizitka 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp.gd.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/wp-customer-reviews-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/wp-customer-reviews-3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/1 post page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/1 post page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/1 post page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/1 post page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/1 post page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/DODGE-RAM-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/logoDG.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -277,6 +104,7 @@
       <workItem from="1612172708795" duration="595000" />
       <workItem from="1612519285224" duration="2690000" />
       <workItem from="1612877200312" duration="343000" />
+      <workItem from="1613230997125" duration="1235000" />
     </task>
     <servers />
   </component>
