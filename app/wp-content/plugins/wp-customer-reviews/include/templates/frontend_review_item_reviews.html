@@ -3,17 +3,14 @@ NOTICE: Changes made to this file do nothing.
 Additionally, this file will be overwritten with each plugin update and/or activation.
 ---%
 {{#reviews}}
-<div class="wpcr3_dotline"></div>
 <div id="wpcr3_id_{{id}}" class="wpcr3_review" itemprop="review" itemscope itemtype="http://schema.org/Review">
 	<meta itemprop="author" content="{{wpcr3_review_name}}" />
 	<div class="wpcr3_hide" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
 		<meta itemprop="bestRating" content="5" />
 		<meta itemprop="worstRating" content="1" />
 		<meta itemprop="ratingValue" content="{{wpcr3_review_rating}}" />
-	</div>
-	<div class="wpcr3_review_ratingValue">{{stars}}</div>
-	<div class="wpcr3_review_datePublished" itemprop="datePublished">{{post_date}}</div>
-	<div class="wpcr3_review_author">by
+	</div>	
+	<div class="wpcr3_review_author"><!--by-->
 		<span class="wpcr3_caps">
 			{{:wpcr3_review_website}}
 			<a target="_blank" href="{{wpcr3_review_website}}">{{wpcr3_review_name}}</a>
@@ -21,7 +18,7 @@ Additionally, this file will be overwritten with each plugin update and/or activ
 			{{!wpcr3_review_website}}
 			{{wpcr3_review_name}}
 			{{/wpcr3_review_website}}
-		</span> on
+		</span><!-- on-->
 		<span class="wpcr3_item_name">
 			{{:on_same_page}}
 			{{item_name}}
@@ -31,6 +28,7 @@ Additionally, this file will be overwritten with each plugin update and/or activ
 			{{/on_same_page}}
 		</span>
 	</div>
+	<div class="wpcr3_review_datePublished" itemprop="datePublished">{{post_date}}</div>
 	<div class="wpcr3_clear"></div>
 	{{:wpcr3_review_title}}
 	<div class="wpcr3_review_title wpcr3_caps">{{wpcr3_review_title}}</div>
@@ -52,6 +50,7 @@ Additionally, this file will be overwritten with each plugin update and/or activ
 			{{content}}
 		</p>
 	</blockquote>
+	<div class="wpcr3_review_ratingValue">{{stars}}</div>
 
 	{{:wpcr3_review_admin_response}}
 	<blockquote class="wpcr3_content wpcr3_admin_response">

@@ -3,6 +3,136 @@
 
 /*==========  Desktop First  ==========*/
 
+@media screen and (max-width: 1770px)
+	.category-head
+		.menu
+			margin-right: 10px
+			li
+				margin-left: 25px
+	.category-head-body
+		padding: 0 25px
+	.post 
+		.left-col 
+			.feed-b-box 
+				h3
+					margin-top: 15%
+
+@media screen and (max-width: 1632px)
+	.post 
+		.left-col
+			.taxonomy
+				min-height: 250px
+			.post-content
+				margin-bottom: 75px
+	.feed-b-review 
+		.wpcr3_product
+			width: 100%
+			padding-left: 40px
+
+@media screen and (max-width: 1408px)
+	.post
+		.wpcr3_submit_btn, .wpcr3_fconfirm2
+			margin-left: 0
+		.wpcr3_respond_2
+			textarea
+				width: 95%
+				margin-left: 0
+				margin-top: 35px
+		.left-col
+			.post-content, .taxonomy
+				width: 100%
+				margin-right: 0px
+				padding-left: 55px
+				padding-right: 40px
+			.wpcr3_div_2
+				width: 100%
+			.feed-b-box
+				padding-left: 50px
+				.f_content
+					width: 100%
+		.wpcr3_review_form_text_field
+			input
+				margin-left: 0px
+				margin-top: 30px
+
+@media screen and (max-width: 1366px)
+	.post
+		.wpcr3_respond_2
+			textarea
+				height: 110px !important
+		.wpcr3_review_form_text_field
+			input
+				margin-left: 0px
+				height: 55px
+		.wpcr3_rating_stars
+			margin-left: 0px
+		.wpcr3_submit_btn
+			width: 220px
+			height: 55px
+			font-size: 25px
+		.left-col
+			.post-content
+				p
+					font-size: 17px
+					line-height: 20px
+					a			
+						width: 220px
+						height: 55px
+						font-size: 25px
+			.feed-b-box 
+				h3
+					margin-bottom: 7%
+	.feed-b-review
+		padding-left: 40px
+		div.wpcr3_review
+			width: 100%
+			.wpcr3_content
+				p
+					width: 334px
+					font-size: 17px
+		.wpcr3_product
+			padding-left: 0px
+
+@media screen and (max-width: 1300px)
+	.category-head-body 
+		.logo-container 
+			.logo-title-desc 
+				.site-title
+					margin-top: 0
+					a
+					.desc
+	.category-head 
+		.menu
+			margin-right: 0
+			li 
+				a
+					font-size: 16px
+
+@media screen and (max-width: 1285px)
+	.post
+		.wpcr3_review_form_text_field 
+			input
+				height: 35px
+				font-size: 16px
+		.left-col
+			.taxonomy
+				min-height: 180px
+				.yoast-breadcrumbs 
+					a
+						font-size: 16px
+				.hashtag 
+					a
+						font-size: 14px !important
+			.post-content
+				h2 
+					//font-size: 50px
+					@include adaptiv-font(35, 25)
+					margin-top: 47px
+			.feed-b-box 
+				h3
+				 //@include adaptiv-font(35, 20)
+				 width: 190px
+				 font-size: 23px
 // ≥1200px
 +media-breakpoint-down(lg)
 	//menu mobile
@@ -81,89 +211,35 @@
 			span 
 				transform: scale(0)
 	//END menu mobile
+	.post
+		.right-col
+			width: 57.67%
+		.left-col
+			width: 42.33%
+			.taxonomy
+				padding-right: 30px
+			.post-content
+				padding-right: 30px
+				p
+					font-size: 16px
+					line-height: 19px
+					padding-top: 45px
+	.feed-b-review		
+		div.wpcr3_review
+			.wpcr3_content
+				p
+					width: 240px
 
 // ≥992px
 +media-breakpoint-down(md)
-
-
-@media screen and (max-width: 1770px)
-	.category-head
-		.menu
-			margin-right: 10px
-			li
-				margin-left: 25px
-	.category-head-body
-		padding: 0 25px
-	.post 
-		.left-col 
-			.feed-b-box 
-				h3
-					margin-top: 15%
-
-@media screen and (max-width: 1632px)
-	.post 
+	.post
+		.right-col
 		.left-col
 			.taxonomy
-				min-height: 250px
 			.post-content
-				margin-bottom: 75px
-
-@media screen and (max-width: 1408px)
-	.post
-		.wpcr3_submit_btn, .wpcr3_fconfirm2
-			margin-left: 0
-		.wpcr3_respond_2
-			textarea
-				width: 95%
-				margin-left: 0
-				margin-top: 35px
-		.left-col
-			.post-content, .taxonomy
-				width: 100%
-				margin-right: 0px
-				padding-left: 55px
-				padding-right: 40px
-			.wpcr3_div_2
-				width: 100%
-			.feed-b-box
-				padding-left: 50px
-				.f_content
-					width: 100%
-		.wpcr3_review_form_text_field
-			input
-				margin-left: 0px
-				margin-top: 30px
-
-@media screen and (max-width: 1322px)
-	.post
-		.wpcr3_respond_2
-			textarea
-				min-width: 100%
-		.wpcr3_review_form_text_field
-			input
-				margin-left: 0px
-				margin-top: 15px
-				height: 40px
-		.wpcr3_rating_stars
-			margin-left: 0px
-		.wpcr3_submit_btn
-			width: 220px
-			height: 55px
-			font-size: 25px
-		.left-col
-			.post-content
-				p 
-					a			
-						width: 220px
-						height: 55px
-						font-size: 25px
-
-@media screen and (max-width: 1265px)
-	.post
-		.left-col
-			.taxonomy
-				min-height: 180px
-
+				p
+					font-size: 14px
+					line-height: 16px
 // ≥768px
 +media-breakpoint-down(sm)
 	.resume_container .left, .right
@@ -180,25 +256,6 @@
 			max-width: 100%
 	
 
-@media screen and (max-width: 1300px)
-	.category-head-body 
-		.logo-container 
-			.logo-title-desc 
-				.site-title
-					margin-top: 0
-					a
-					.desc
-	.category-head 
-		.menu
-			margin-right: 0
-			li 
-				a
-					font-size: 16px
-
-@media screen and (max-width: 1300px)
-	.post
-		.right-col				
-			display: none
 // ≥576px
 +media-breakpoint-down(xs)
 	.top-wrapper

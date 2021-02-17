@@ -3,6 +3,7 @@ $(document).ready(function() {
 	
 	$('#wpcr3_fname').attr('placeholder','Your name');
 	$('#id_wpcr3_ftext').attr('placeholder','Comment');
+	$('#wpcr3_femail').attr('placeholder','Your e-mail');
 
 	$('.header__burger').click(function(event) {
 			$('.header__burger,.top-menu-categ').toggleClass('active');

@@ -51,6 +51,9 @@ if ( has_post_thumbnail() ){
 			</div>
 			
 </div>
-
-<?php //echo do_shortcode('[WPCR_SHOW POSTID="ALL" NUM="3"]'); ?>
+<div class="feed-b-review">
+	<h3 class="feed-review-title">Feedbacks</h3>
 	<?php echo do_shortcode('[WPCR_SHOW POSTID='.$post->ID.' NUM="10"]');?>
+</div>
+<?php //echo do_shortcode('[WPCR_SHOW POSTID="ALL" NUM="3"]'); ?>
+	

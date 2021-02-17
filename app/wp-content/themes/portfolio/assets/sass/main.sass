@@ -609,6 +609,7 @@ $h: 3px
 	left: 0
 	z-index: 50
 	font-family: Roboto
+	+kerning(0.1)
 	&::before
 		content: ''
 		position: absolute
@@ -641,7 +642,7 @@ $h: 3px
 				margin-left: 0
 			a 
 				text-decoration: none
-				font-size: 20px
+				font-size: 18px
 				padding-bottom: 5px
 				color: #000000
 				position: relative
@@ -672,7 +673,7 @@ $h: 3px
 	position: relative
 	display: flex
 	justify-content: space-between
-	height: 194px
+	height: 100px
 	align-items: center
 	padding: 0 142px
 	.logo-container
@@ -692,21 +693,76 @@ $h: 3px
 				margin-top: 10px
 				a 
 					font-weight: 700
-					@include adaptiv-font(40, 25)
+					font-size: 18px
 					color: #09009C
 					text-decoration: none
-					line-height: 40px
+					line-height: 21px
+					font-family: 'RobotoBold'
+					+kerning(0.1)
 			.desc
 				font-weight: 200
-				@include adaptiv-font(25, 12)
-				font-family: Roboto serif
-	
+				font-size: 14px
+				font-family: 'Roboto-Thin'
+.feed-b-review
+	padding: 190px	0
+	div .wpcr3_aggregateRating , .wpcr3_clear, .wpcr3_item_name
+			display: none !important
+	.wpcr3_review_author
+		display: flex !important
+	.wpcr3_review
+		width: 415px
+	.wpcr3_review_item
+		display: flex
+		justify-content: center
+	.wpcr3_product
+		display: flex
+		width: 1440px
+		justify-content: space-around
+	.wpcr3_caps
+		font-family: 'Robotomedium'
+		font-size: 30px
+		font-style: normal
+		margin-bottom: 17px
+	div.wpcr3_review
+		.wpcr3_review_datePublished
+			font-family: 'RobotoRegular'
+			font-style: normal
+			font-size: 16px
+			color: #525252
+			margin-bottom: 23px
+		.wpcr3_content
+			p 
+				font-family: 'Roboto'
+				font-size: 20px
+				color: #000
+				+kerning(0.1)
+				line-height: 23px !important
+				width: 379px
+				display: block !important
+	.feed-review-title
+		@include adaptiv-font(40, 18)
+		font-family: 'Robotomedium'
+		font-weight: 500
+		margin-bottom: 80px
+		padding-left: 263px
+		+kerning(0.1)
+	div
+		.wpcr3_rating_style1_base
+			width: 178px
+			height: 28px
+			line-height: 27px
+		.wpcr3_rating_style1_average
+			background-position: 0 -30px
+			height: 27px
+			line-height: 27px
+	blockquote
+		margin-bottom: 0		
 .post
 	font-family: Roboto serif
 	margin-top: 120px
 	display: inline-flex
 	justify-content: space-between
-	width: 100vw
+	width: 100%
 	.right-col
 		width: 54.67%
 		.img-box
@@ -779,15 +835,15 @@ $h: 3px
 				&.wpcr3_rating_style1_score4
 					width: 79%
 	.wpcr3_rating_stars
-		margin-top: 17px
+		margin-top: 40px
 		margin-left: 40px
 	.wpcr3_review_form_text_field
 		input
-			margin-top: 53px
+			margin-top: 30px
 			margin-left: 38px
 			border: 1px solid #09009C
-			width: 280px
-			height: 72.11px
+			width: 440px
+			height: 47px
 			background-color: transparent
 			padding: 0 14px
 			font-family: 'Robotolight'
@@ -795,7 +851,7 @@ $h: 3px
 			color: #000
 	.wpcr3_respond_2
 		textarea
-			margin-top: 57px
+			margin-top: 30px
 			margin-left: 40px
 			border: 1px solid #09009C
 			font-family: 'Robotolight'
@@ -803,8 +859,9 @@ $h: 3px
 			background-color: transparent
 			color: #000
 			padding: 25px 15px
-			height: 145px !important
-			width: 559px 
+			height: 144px !important
+			max-width: 440px
+			min-width: 440px
 	.wpcr3_clear, .wpcr3_power, .wpcr3_dotline
 		display: none !important
 	.wpcr3_cancel_btn
@@ -872,8 +929,8 @@ $h: 3px
 				+kerning(0.1)
 			p 
 				font-family: 'RobotoRegular'
-				font-size: 25px
-				line-height: 29px
+				font-size: 20px
+				line-height: 22px
 				+kerning(-0.1)
 				color: #000
 				font-style: normal
