@@ -23,6 +23,7 @@ let paths = {
 			'app/wp-content/themes/portfolio/assets/libs/imagefill/jquery-imagefill.js',
 			'app/wp-content/themes/portfolio/assets/libs/font-awesome/js/all.min.js',
 			'app/wp-content/themes/portfolio/assets/libs/masonry/masonry.pkgd.min.js',
+			'app/wp-content/themes/portfolio/assets/libs/slick/slick.js',
 			baseDir + '/assets/js/common.js' // app.js. Always at the end
 
 		],

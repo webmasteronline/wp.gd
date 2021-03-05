@@ -31,9 +31,11 @@
                 <div class="category-head">
                     <div class="category-head-body">
                         <div class="logo-container">
+                            <?php if ( portfolio_theme_option('logo_img_svg') ) : ?>
                             <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                                <?php  echo portfolio_theme_option('logo_img_svg') ?>
+                                <?php  echo portfolio_theme_option('logo_img_svg') ?>                                
                             </a>
+                        <?php endif; ?>
                             <ul class="logo-title-desc">
                                 <li><p class="site-title"><a href="<?php echo home_url(); ?>"><?php echo get_bloginfo( 'name' ); ?></a></p></li>
                                 <li><p class="desc"><?php echo get_bloginfo( 'description' ); ?></p></li>

@@ -13,9 +13,10 @@
 		padding: 0 25px
 	.post 
 		.left-col 
-			.feed-b-box 
-				h3
-					margin-top: 15%
+			.feed-b-box
+			 .title-box
+					h3
+						margin-top: 15%
 
 @media screen and (max-width: 1632px)
 	.post 
@@ -24,10 +25,10 @@
 				min-height: 250px
 			.post-content
 				margin-bottom: 75px
-	.feed-b-review 
+	.feed-b-review
+		padding-left: 6.5%
 		.wpcr3_product
 			width: 100%
-			padding-left: 40px
 
 @media screen and (max-width: 1408px)
 	.post
@@ -71,6 +72,8 @@
 			height: 55px
 			font-size: 25px
 		.left-col
+			.post-content, .taxonomy
+				margin-left: 0
 			.post-content
 				p
 					font-size: 17px
@@ -83,7 +86,7 @@
 				h3
 					margin-bottom: 7%
 	.feed-b-review
-		padding-left: 40px
+		padding-left: 50px
 		div.wpcr3_review
 			width: 100%
 			.wpcr3_content
@@ -128,11 +131,12 @@
 					//font-size: 50px
 					@include adaptiv-font(35, 25)
 					margin-top: 47px
-			.feed-b-box 
-				h3
-				 //@include adaptiv-font(35, 20)
-				 width: 190px
-				 font-size: 23px
+			.feed-b-box
+				.title-box
+					h3
+					 //@include adaptiv-font(35, 20)
+					 width: 190px
+					 font-size: 23px
 // ≥1200px
 +media-breakpoint-down(lg)
 	//menu mobile
@@ -212,34 +216,221 @@
 				transform: scale(0)
 	//END menu mobile
 	.post
+		div
+			.wpcr3_rating_style1
+				line-height: 27px
+			.wpcr3_rating_style1_base //при нажатии 
+				background: url("../img/small_star.png") 0 0 no-repeat
+				width: 129px
+				height: 22px
+				line-height: 18px
+			.wpcr3_rating_style1_status
+				height: 22px
+				line-height: 22px
+			.wpcr3_rating_style1_average
+				background: url("../img/small_star.png") 0 -26px no-repeat
+				width: 126px
+				height: 22px
+				line-height: 18px
+			.wpcr3_rating_style1_score
+				background: url("../img/small_star.png") no-repeat
+				height: 22px
+				line-height: 18px
+				width: 126px
+				div
+					height: 22px
+					line-height: 27px
+					&.wpcr3_rating_style1_score1
+						width: 17%
+					&.wpcr3_rating_style1_score2
+						width: 38%
+					&.wpcr3_rating_style1_score3
+						width: 58.5%
+					&.wpcr3_rating_style1_score4
+						width: 79%
+					&:hover
+						background: url("../img/small_star.png") bottom right no-repeat
 		.right-col
 			width: 57.67%
 		.left-col
 			width: 42.33%
+			.feed-b-box
+				justify-content: center
+				.title-box
+					h3 
+						margin-top: 1.5em
+						margin-bottom: 3%
+			.wpcr3_review_form_text_field
+				input
+					margin-top: 25px
+					width: 100%
+					margin-left: -2px
 			.taxonomy
 				padding-right: 30px
 			.post-content
 				padding-right: 30px
+				margin-bottom: 65px
 				p
-					font-size: 16px
+					font-size: 15px
 					line-height: 19px
 					padding-top: 45px
+			.wpcr3_div_2
+				padding-right: 55px
+		.wpcr3_respond_2 
+			textarea
+				margin-top: 25px
+				padding: 20px 15px
+				min-width: 100%
+				max-width: 100%
 	.feed-b-review		
 		div.wpcr3_review
 			.wpcr3_content
 				p
 					width: 240px
+		div
+			.wpcr3_rating_style1_average
+				background: url("../img/small_star.png") 0 -26px no-repeat
+				height: 21px
+				line-height: 21
+			.wpcr3_rating_style1_base
+				background: url("../img/small_star.png") 0 0 no-repeat
+				width: 129px
+	.wpcr3_button_1
+		margin-bottom: 0
+
 
 // ≥992px
 +media-breakpoint-down(md)
 	.post
 		.right-col
+			.img-box
+				.heart-like
+					.likecount
+						font-size: 18px
+					svg
+						width: 30px
 		.left-col
+			padding-top: 0px
 			.taxonomy
 			.post-content
 				p
 					font-size: 14px
 					line-height: 16px
+					padding-top: 35px
+				h2
+					font-size: 28px
+		.wpcr3_submit_btn
+			margin-top: 25px			
+	.feed-b-review
+		div
+			.wpcr3_review
+				.wpcr3_content
+					p
+						font-size: 14px
+		.wpcr3_caps
+			font-size: 25px
+
+//mob ver image full screen
+@media screen and (max-width: 945px)
+	.post
+		div .wpcr3_rating_style1_status
+			width: 126px
+		div	.wpcr3_rating_style1_base
+			width: 126px
+		margin-top: 65px
+		.wpcr3_rating_stars
+			text-align: center
+		.left-col
+			width: 100vw
+			.wpcr3_div_2
+				padding-right: 56px
+			.taxonomy
+				min-height: 20px
+				.hashtag 
+					a
+						margin-right: 70px
+			.post-content
+				display: flex
+				padding-left: 57px
+				padding-right: 57px
+				margin-bottom: 61px
+				h2 
+					font-size: 30px
+					padding-right: 50px
+					width: 60%
+				p
+					width: 40%
+					&:last-child
+						display: none
+					a
+						display: none
+			.feed-b-box
+				margin-top: 125px
+				padding-left: 56px
+				.title-box
+					justify-content: center
+					h3
+						width: auto
+						margin-right: 0
+						margin-top: 70px
+						margin-bottom: 0
+			.img-box-mob
+				position: relative
+				.heart-like
+					position: absolute
+					left: 0
+					bottom: -55px
+					z-index: 1
+					display: flex
+					align-items: center
+					width: 100%
+					justify-content: space-between
+					padding: 0 57px
+					flex-direction: row-reverse
+					svg
+						width: 30px
+						path
+							fill: #000
+							transition: all 0.5s
+						&:hover
+							path
+								fill: red						
+					.is-active
+						svg
+							path
+								fill: red
+					.likecount
+						font-family: 'RobotoRegular'
+						color: #969696
+						font-size: 20px
+						margin-left: 17px
+						.like-t
+							margin-left: 3px
+					.like_ico
+						height: 31px
+	.category-head-body
+		padding: 0 56px 0 56px
+		.logo-container
+			width: 100%
+			.logo-title-desc
+				display: flex
+				justify-content: space-between
+				width: 100%
+			.desc
+				font-size: 12px
+	.header__burger
+		position: absolute
+		left: 50%
+	.yoast-breadcrumbs
+		display: none
+	.img-box-mob
+		display: block
+		img
+			padding: 0 57px
+	.right-col
+		display: none
+
+
 // ≥768px
 +media-breakpoint-down(sm)
 	.resume_container .left, .right
@@ -253,8 +444,8 @@
 			margin-bottom: 20px
 	.port-descr
 		p
-			max-width: 100%
-	
+			max-width: 100%	
+
 
 // ≥576px
 +media-breakpoint-down(xs)

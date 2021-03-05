@@ -29,7 +29,8 @@ $(document).ready(function() {
 		$(".animation-3").animated("fadeInRight", "fadeOutRight");
 		$(".left .resume-item").animated("fadeInLeft", "fadeOutDown");
 		$(".right .resume-item").animated("fadeInRight", "fadeOutDown");
-	}
+	}	
+
 
 	// красивый вывод всех постов с помощью галереи Masonry . Обернул в функцию что бы запустить снова после AJax ответа
 	function loadMasonry() {
@@ -209,7 +210,11 @@ jQuery(document).ready(function($){
 
 
 
-
+$('.wpcr3_product').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	dots:true,
+});
 
 
 
