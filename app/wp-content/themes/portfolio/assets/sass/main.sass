@@ -1001,6 +1001,7 @@ $h: 3px
 /*Лента слайдов*/
 .slick-track
 	display: flex
+	//align-items: flex-start //для adaptiveHeight: true
 /*Слайд*/
 .slick-slide
 /*Слайд активный*/
@@ -1035,7 +1036,7 @@ $h: 3px
 		height: 34px
 		border: 0
 	.slick-prev
-		left: -60px
+		left: -80px
 		background: url('../img/left-arrow.svg') 0 0 no-repeat
 	.slick-next
 		right: -45px
@@ -1061,6 +1062,8 @@ $h: 3px
 		height: 10px
 		background-color: #009688
 		border-radius: 50%
+	.slick-disabled
+		display: none !important
 
 
 @import "media" // Always at the end

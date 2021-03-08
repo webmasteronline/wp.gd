@@ -45,12 +45,15 @@ let paths = {
 		dest: baseDir + '/assets/css',
 	},
 
-	images: {
-		src:  baseDir + '/assets/img/**/*',
-		dest: baseDir + '/assets/img/dest',
+//	images: {
+//		src:  baseDir + '/assets/img/**/*',
+//		dest: baseDir + '/assets/img/dest',
+//	},
+
+images: {
+		src:  'imgupload/**/*',
+		dest: baseDir + '/assets/img',
 	},
-
-
 
 	cssOutputName: 'app.min.css',
 	jsOutputName:  'app.min.js',

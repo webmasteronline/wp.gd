@@ -29,6 +29,8 @@
 		padding-left: 6.5%
 		.wpcr3_product
 			width: 100%
+			.slick-prev
+				left: -60px
 
 @media screen and (max-width: 1408px)
 	.post
@@ -86,7 +88,7 @@
 				h3
 					margin-bottom: 7%
 	.feed-b-review
-		padding-left: 50px
+		padding-left: 70px
 		div.wpcr3_review
 			width: 100%
 			.wpcr3_content
@@ -95,6 +97,8 @@
 					font-size: 17px
 		.wpcr3_product
 			padding-left: 0px
+			.slick-prev
+				//left: -45px
 
 @media screen and (max-width: 1300px)
 	.category-head-body 
@@ -295,6 +299,7 @@
 			.wpcr3_rating_style1_base
 				background: url("../img/small_star.png") 0 0 no-repeat
 				width: 129px
+				height: 22px
 	.wpcr3_button_1
 		margin-bottom: 0
 
@@ -322,6 +327,7 @@
 		.wpcr3_submit_btn
 			margin-top: 25px			
 	.feed-b-review
+		padding-right: 70px
 		div
 			.wpcr3_review
 				.wpcr3_content
@@ -333,6 +339,9 @@
 //mob ver image full screen
 @media screen and (max-width: 945px)
 	.post
+		.wpcr3_submit_btn
+			margin: 0 auto
+			margin-top: 35px
 		div .wpcr3_rating_style1_status
 			width: 126px
 		div	.wpcr3_rating_style1_base
@@ -430,7 +439,6 @@
 	.right-col
 		display: none
 
-
 // ≥768px
 +media-breakpoint-down(sm)
 	.resume_container .left, .right
@@ -446,9 +454,57 @@
 		p
 			max-width: 100%	
 
+//≥887
+@media screen and (max-width: 887px)
+	.feed-b-review
+		.feed-review-title
+			width: 100%
+			text-align: center
+		div.wpcr3_review
+			padding: 0	10px
+			.wpcr3_caps
+				text-align: center
+				width: 100%
+			.wpcr3_review_datePublished
+				text-align: center
+				width: 100%
+			.wpcr3_content
+				p 
+					width: 100%
+					text-align: center
+			.wpcr3_review_ratingValue
+				width: 100%
+				text-align: center
+		div 
+			.wpcr3_rating_style1_base
+				text-align-last: left
+
+//≥730px
+@media screen and (max-width: 730px)
+	.post
+		.left-col
+			.post-content
+				display: block
+				h2
+					width: 100%
+					text-align: center
+					padding-right: 0
+					padding-left: 0
+				p 
+					width: 100%
+					text-align: center
+	.category-head-body
+		height: 75px
+		.logo-container
+			.logo-title-desc
+				align-items: center
+				.desc
+					width: 125px
 
 // ≥576px
 +media-breakpoint-down(xs)
+	.category-head-body
+		padding: 0	20px
 	.top-wrapper
 		.top-text
 			h1
@@ -466,6 +522,34 @@
 			width: 100%
 			ul
 				padding-left: 0px
+	.img-box-mob 
+		img
+			padding: 0 20px
+	.feed-b-review
+		padding-right: 50px
+		padding-left: 50px
+		.feed-review-title
+			font-size: 25px
+		.wpcr3_product 
+			.slick-prev
+				left: -35px
+	.wpcr3_product 
+		.slick-next
+			right: -30px
+
+
+
+
+// ≥425px
+@media screen and (max-width: 425px)
+	.post 
+		.left-col 
+			.post-content
+				padding-right: 20px
+				padding-left: 20px
+			.taxonomy
+				padding-right: 20px
+				padding-left: 25px
 
 @media screen and (max-width: 380px)
 	.top-wrapper 

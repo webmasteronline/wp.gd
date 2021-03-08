@@ -211,9 +211,31 @@ jQuery(document).ready(function($){
 
 
 $('.wpcr3_product').slick({
+	arrow: true,
 	slidesToShow: 3,
 	slidesToScroll: 1,
-	dots:true,
+	adaptiveHeight: true,
+	easing: 'ease', //эффекты прокрутки
+	infinite: false, //прокрутка бесконечна - true
+	autoplay:false,
+	pauseOnFocus:true,
+	pauseOnHover:true,
+	pauseOnDotsHover:true,
+	waitForAnimate: true, //сколько не кликай быстрее не будет
+	//dots:true,
+	responsive:[
+		{
+			breakpoint: 888,
+				settings:{
+					slidesToShow: 2,
+				}
+		},{
+			breakpoint: 520,
+			settings:{
+				slidesToShow: 1,
+			}
+		}
+	]
 });
 
 
