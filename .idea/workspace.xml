@@ -20,33 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e4a622d-b1e5-480c-9012-d3107b5b7a37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/1 post page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/DODGE-RAM-00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/favicon/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/heart-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/logoDG.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/portfolio-images/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/dest/preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/dest/portfolio-images/vizitka 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp.gd.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/Iceland-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/Iceland-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/Iceland-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/main page.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgupload/main page.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/wp-customer-reviews-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/plugins/wp-customer-reviews/wp-customer-reviews-3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_fonts.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/template-parts/content-post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header-front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header-front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/inc/customizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/inc/customizer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +93,8 @@
       <workItem from="1612519285224" duration="2690000" />
       <workItem from="1612877200312" duration="343000" />
       <workItem from="1613230997125" duration="1235000" />
+      <workItem from="1615539157558" duration="3625000" />
+      <workItem from="1615550876124" duration="3262000" />
     </task>
     <servers />
   </component>
@@ -127,10 +117,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1610381924660">
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1615542896241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="442" key="NewPhpFileDialog/-1366.116.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610381924660" />
+    <state x="795" y="442" key="NewPhpFileDialog/-1366.116.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1615542896241" />
     <state x="763" y="221" key="RollbackChangesDialog" timestamp="1610383873833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

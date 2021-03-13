@@ -31,6 +31,15 @@
 			width: 100%
 			.slick-prev
 				left: -60px
+	.main-head
+		padding-left: 80px
+		padding-right: 80px
+		.social-wrap
+			right: 100px
+		.top-wrapper
+			.top-centered
+				padding-left: 85px
+				padding-right: 85px
 
 @media screen and (max-width: 1408px)
 	.post
@@ -59,6 +68,18 @@
 				margin-top: 30px
 
 @media screen and (max-width: 1366px)
+	.main-head
+		padding-left: 50px
+		padding-right: 50px
+		.social-wrap
+			right: 70px
+			ul
+				li
+					margin-left: 30px
+		.top-wrapper 
+			.top-centered
+				padding-left: 55px
+				padding-right: 55px
 	.post
 		.wpcr3_respond_2
 			textarea
@@ -412,7 +433,7 @@
 						font-family: 'RobotoRegular'
 						color: #969696
 						font-size: 20px
-						margin-left: 17px
+						margin-left: 0px
 						.like-t
 							margin-left: 3px
 					.like_ico
@@ -441,6 +462,18 @@
 
 // ≥768px
 +media-breakpoint-down(sm)
+	.main-head
+		padding-left: 30px
+		padding-right: 30px
+		.social-wrap
+			right: 50px
+			ul
+				li
+					margin-left: 30px
+		.top-wrapper 
+			.top-centered
+				padding-left: 30px
+				padding-right: 30px
 	.resume_container .left, .right
 		text-align: left
 		border-right: none
@@ -503,16 +536,47 @@
 
 // ≥576px
 +media-breakpoint-down(xs)
+	.main-head
+		padding-left: 0px
+		padding-right: 0px
+		.logo-container
+			margin-top: 0
+		.social-wrap
+			//transform: rotate(180deg)
+			right: unset
+			bottom: unset
+			left: 20px
+			top: 120px
+			//margin-top: -20px
+			ul
+				margin: 0
+				padding: 0
+				li
+					display: block
+					margin-left: 0
+					text-align: center
+					margin-bottom: 40px
+
+	.top-wrapper 
+		.top-descr
+			.top-centered
+				padding-left: 0
+				padding-right: 0
+				text-align: center
+				vertical-align: bottom
+				padding-bottom: 100px
+			.container-fluid 
+				.main-button
+					display: flex
+					justify-content: center
 	.category-head-body
 		padding: 0	20px
 	.top-wrapper
 		.top-text
 			h1
-				font-size: 1.8em
-				margin-left: 15px
-				margin-right: 15px
+				//font-size: 1.8em
 			p
-				font-size: 10px
+				//font-size: 10px
 
 	.main-footer
 		text-align: left
@@ -555,11 +619,17 @@
 	.top-wrapper 
 		.top-text
 			h1 
-				font-size: 1.5em
 				margin-right: 0
 				margin-left: 0
 			p
 				max-width: 320px
+		.top-descr
+			.top-centered
+				.container-fluid
+					.main-button
+						.button
+							width: 280px
+
 
 /*==========  Mobile First  ==========*/
 
@@ -574,3 +644,16 @@
 
 // ≤1200px
 +media-breakpoint-up(xl)
+
+@media screen and (max-height: 697px)
+	.main-head
+		.social-wrap
+			bottom: 30px
+			right: 70px
+	.top-wrapper
+		.top-descr
+			.top-centered
+				padding-top: 130px
+				.container-fluid
+					.main-button
+						padding-bottom: 0

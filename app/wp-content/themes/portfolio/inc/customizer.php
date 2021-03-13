@@ -31,6 +31,27 @@ function portfolio_customize_register( $wp_customize ) {
 			)
 		);
 	}
+
+	// My customize
+    $wp_customize->add_setting('portfolio_main_tittle', array(
+        'default' => 'Main Head Text',
+        'transport' => 'postMessage',  
+    ));
+	$wp_customize->add_control(
+	    new WP_Customize_Control(
+            $wp_customize,
+            'portfolio_main_tittle',
+            array(
+                'label' => 'Main Head Text',
+                'section' => 'title_tagline',
+                'setting' => 'portfolio_main_tittle',
+            )
+        )
+    );
+
+
+
+    // End my customize
 }
 add_action( 'customize_register', 'portfolio_customize_register' );
 

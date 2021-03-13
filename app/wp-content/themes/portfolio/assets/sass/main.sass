@@ -11,7 +11,9 @@
 
 *:focus
 	outline: 0 !important
-
+.main-head
+	.container-fluid
+		max-width: 1440px
 body
 	font-size: 14px
 	min-width: 320px
@@ -168,26 +170,27 @@ section
 .logo-container
 	float: left
 
-.toggle-mnu
-	width: 60px
-	height: 60px
-	z-index: 100
-	border: none
-	position: fixed
-	right: 20px
-	top: 20px
-	float: right
-	span
-		display: block
+.main-head
+	.toggle-mnu
+		width: 60px
+		height: 60px
+		z-index: 100
+		border: none
+		position: relative
+		right: 0px
+		top: 0px
+		background-color: rgba(0,0,0,0)
+		span
+			display: block
 
-$w: 28px
+$w: 44px
 $h: 3px
 
 .sandwich 
 	width: $w
 	height: $w
 	position: absolute
-	top: 8px
+	top: 30px
 	bottom: 0
 	left: 0
 	right: 0
@@ -211,7 +214,7 @@ $h: 3px
 	position: relative
 	width: $w
 	height: $h
-	top: $h * 2.2
+	top: $h * 3.2
 	background: rgb(255, 255, 255)
 	border: none
 	border-radius: 4px 4px 4px 4px
@@ -221,7 +224,7 @@ $h: 3px
 	position: relative
 	width: $w
 	height: $h
-	top: $h * 4.5
+	top: $h * 6.5
 	background: rgb(255, 255, 255)
 	border: none
 	border-radius: 4px 4px 4px 4px
@@ -296,8 +299,26 @@ $h: 3px
 		display: table-row
 		.top-centered
 			display: table-cell
-			text-align: center
+			text-align: start
 			vertical-align: middle
+			.container-fluid
+				padding-left: 15px
+				.main-button
+					margin-top: 60px
+					margin-bottom: 35px
+					.button
+						background: #525252
+						text-decoration: none
+						display: inline-block
+						border: #525252 3px solid
+						font-size: 30px
+						font-family: 'IcelandRegular'
+						color: #fff
+						width: 320px
+						height: 73px
+						display: flex
+						align-items: center
+						justify-content: center
 	.top-text
 		display: inline-block
 		+transition(all 1s ease)
@@ -305,18 +326,23 @@ $h: 3px
 			margin: 0
 			text-transform: uppercase
 			+animation-delay(1.8s)
+			font-family: 'Robotolight'
+			@include adaptiv-font(28, 16)
+			+kerning(0)
+			padding-left: 5px
 		h1
 			display: inline-block
-			padding: 10px 30px
+			padding: 0
 			color: #fff
-			border: 8px solid #fff
-			text-transform: uppercase
 			font-weight: 700
 			font-size: 3.5em
-			background-color: rgba(0,0,0,.6)
-			margin-left: 20px
-			margin-right: 20px
+			margin-left: 0
+			margin-right: 0
+			margin-bottom: 24px
 			+animation-delay(1s)
+			@include adaptiv-font(100, 35)
+			font-family: 'RobotoBold'
+			+kerning(0)
 
 .toggle-mnu
 	background-color: rgba(0,0,0,.4)
@@ -329,6 +355,25 @@ $h: 3px
 	text-align: center
 	.s-descr 
 		display: inline-block
+
+.big-title
+	@include adaptiv-font(160, 70)
+	text-transform: uppercase
+	font-family: 'Robotoblack'
+	opacity: 0.4
+	transform: rotate(-90deg)
+#about
+	padding: 0
+.about-body
+	position: relative
+	.frontend
+		width: 55%
+		.big-title
+			color: white
+
+.skills
+	position: absolute
+	right: 0
 
 .main-footer
 	padding: 12px 0
@@ -704,8 +749,55 @@ $h: 3px
 					+kerning(0.1)
 			.desc
 				font-weight: 200
-				font-size: 14px
+				font-size: 10px
 				font-family: 'Roboto-Thin'
+.main-head
+	.logo-container
+		float: none
+		display: flex
+		align-items: center
+		font-family: Roboto serif
+		justify-content: space-between
+		margin-top: 29px
+		.logo-title-desc
+			list-style-type: none
+			position: relative
+			z-index: 2
+			margin: 0
+			padding: 0
+			p
+				margin: 0		
+			.site-title
+				margin-top: 10px
+				a 
+					font-weight: 400
+					font-size: 20px
+					color: #525252
+					text-decoration: none
+					line-height: 21px
+					font-family: 'IcelandRegular'
+					+kerning(0.1)
+			.desc
+				font-weight: 200
+				font-size: 10px
+				font-family: 'Roboto-Thin'
+				color: #000
+	.social-wrap
+		position: absolute
+		z-index: 20
+		bottom: 60px
+		right: 255px
+		svg 
+			path
+				fill: #fff
+		ul
+			li
+				margin-left: 35px
+				&:last-child
+					svg 
+						path
+							fill: none
+
 /*END top Menu Category*/
 .feed-b-review
 	padding: 190px 145px 190px 9%
@@ -771,6 +863,8 @@ $h: 3px
 	display: inline-flex
 	justify-content: space-between
 	width: 100%
+	.likecount
+		margin-left: 20px
 	.right-col
 		width: 54.67%
 		.img-box
@@ -794,7 +888,7 @@ $h: 3px
 					svg
 						path
 							fill: red
-				.likecount
+				.likecounlogo-title-desct
 					font-family: 'RobotoRegular'
 					color: #969696
 					font-size: 20px

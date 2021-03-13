@@ -1,9 +1,11 @@
 @import "_mixins/font-face"
 
 +font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular")
++font-face("IcelandRegular", "../fonts/Iceland/Iceland-Regular", normal)
 +font-face("Robotomedium", "../fonts/roboto/Robotomedium")
 +font-face("Roboto", "../fonts/roboto/Roboto")
 +font-face("Robotolight", "../fonts/roboto/Robotolight")
++font-face("Robotoblack", "../fonts/roboto/Robotoblack", normal)
 +font-face("Roboto-Thin", "../fonts/Roboto-Thin/RobotoRegular", normal)
 +font-face("fontawesome", "../libs/font-awesome/fonts/fontawesome-webfont", normal)
 +font-face("RobotoBold", "../fonts/RobotoBold/RobotoBold", normal)
@@ -17,10 +19,22 @@
 	font-family: 'RobotoBold'
 	src: url('../fonts/RobotoBold/RobotoBold.woff') format('woff')
 	font-weight: 700
+
+@font-face
+	font-family: 'Robotoblack'
+	src: url('../fonts/roboto/Robotoblack.woff') format('woff')
+	font-weight: 900
+
+@font-face
+	font-family: 'IcelandRegular'
+	src: url('../fonts/Iceland/Iceland-Regular.woff') format('woff')
+	font-weight: 400
+
 @font-face
 	font-family: 'Robotomedium'
 	src: url('../fonts/roboto/Robotomedium.woff') format('woff')
 	font-weight: 500
+
 @font-face
 	font-family: 'Roboto'
 	src: url('../fonts/roboto/Roboto.woff') format('woff')

@@ -19,7 +19,7 @@ $options = array(
                 'type' => 'upload',
                 'label' => __('Image Header', 'portfolio'),
                 'desc' => __('Image Header', 'portfolio'),
-                'help' => __('Some ...', 'portfolio')
+                'help' => __('Upload bg image on the front page to header', 'portfolio')
             ),
             'post_heart_icon' => array(
                 'type' => 'textarea',
@@ -38,7 +38,73 @@ $options = array(
                 'value' => '#ffffff',
                 'label' => __('Color Header', 'portfolio'),
                 'desc' => __('Choose header color', 'portfolio'),
-                'help' => __('Some color', 'portfolio'),
+                'help' => __('Not have link enter #', 'portfolio'),
+            ),
+        ),
+    ),
+    'social' => array(
+        'type' => 'tab',
+        'title' => __('Social icon SVG', 'portfolio'),
+        'options' => array(
+            'facebook_link' => array(
+                'type' => 'text',
+                'label' => __('Facebook Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'facebook_svg' => array(
+                'type' => 'textarea',
+                'label' => __('Facebook SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+            ),
+            'twitter_link' => array(
+                'type' => 'text',
+                'label' => __('Twitter Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'twitter_svg' => array(
+                'type' => 'textarea',
+                'label' => __('Twitter SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+            ),
+            'behance_link' => array(
+                'type' => 'text',
+                'label' => __('Behance Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'behance_svg' => array(
+                'type' => 'textarea',
+                'label' => __('Behance SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+            ),
+            'instagram_link' => array(
+                'type' => 'text',
+                'label' => __('Instagram Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'instagram_svg' => array(
+                'type' => 'textarea',
+                'label' => __('Instagram SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+            ),
+            'vk_link' => array(
+                'type' => 'text',
+                'label' => __('VK Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'vk_svg' => array(
+                'type' => 'textarea',
+                'label' => __('VK SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
             ),
         ),
     ),

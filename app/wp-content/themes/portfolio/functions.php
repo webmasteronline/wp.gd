@@ -170,11 +170,6 @@ function portfolio_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_scripts' );
 
-//like-post
-
-
-
-//Endlike-post
 
 
 //function load_script(){

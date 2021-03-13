@@ -20,6 +20,14 @@
 		} );
 	} );
 
+	// Main title front page
+	wp.customize( 'portfolio_main_tittle', function( value ) {
+		value.bind( function( newval ) {
+			$( '#main-title' ).html( newval );
+		} );
+	} );
+
+
 	// Header text color.
 	wp.customize( 'header_textcolor', function( value ) {
 		value.bind( function( to ) {
