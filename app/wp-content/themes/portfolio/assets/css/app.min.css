@@ -17825,8 +17825,8 @@ screen and (max-height:300px) {
   font-family: RobotoBold;
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/RobotoBold/RobotoBold.eot);
-  src: url(../fonts/RobotoBold/RobotoBold.eot?#iefix) format("embedded-opentype"),url(../fonts/RobotoBold/RobotoBold.woff) format("woff"),url(../fonts/RobotoBold/RobotoBold.ttf) format("truetype")
+  src: url(../fonts/roboto/Robotobold.eot);
+  src: url(../fonts/roboto/Robotobold.eot?#iefix) format("embedded-opentype"),url(../fonts/roboto/Robotobold.woff) format("woff"),url(../fonts/roboto/Robotobold.ttf) format("truetype")
 }
 @font-face {
   font-family: Raleway;
@@ -17865,7 +17865,7 @@ screen and (max-height:300px) {
 }
 @font-face {
   font-family: RobotoBold;
-  src: url(../fonts/RobotoBold/RobotoBold.woff) format("woff");
+  src: url(../fonts/roboto/Robotobold.woff) format("woff");
   font-weight: 700
 }
 @font-face {
@@ -20272,6 +20272,9 @@ svg path {
 .bg-collor-dark {
   background: #525252
 }
+.bg-collor-grey {
+  background: #c8c8c8
+}
 .category-head::before {
   background-color: #f9f9ff
 }
@@ -20432,6 +20435,11 @@ form .wrap-forms .field-text .wrap-forms sup {
 }
 .main-head .container-fluid {
   max-width: 1440px
+}
+a,
+div,
+p {
+  letter-spacing: 0
 }
 body {
   font-size: 14px;
@@ -20896,9 +20904,12 @@ section .personal_header {
   text-transform: uppercase;
   font-family: Robotoblack;
   opacity: .4;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg)
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #fff;
+  position: absolute;
+  line-height: normal
 }
 @media screen and (max-width:767px) {
   .big-title {
@@ -20910,21 +20921,302 @@ section .personal_header {
     font-size: calc(70px + 90 * (100vw / 1900))
   }
 }
-#about {
+#about,
+#resume {
   padding: 0
 }
 .about-body {
   position: relative
 }
 .about-body .frontend {
-  width: 55%
+  width: 55%;
+  height: 1039px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  top: -57px
 }
 .about-body .frontend .big-title {
-  color: #fff
+  left: -261px
+}
+.title-block {
+  font-family: RobotoBold;
+  font-size: 70px;
+  color: #000;
+  position: relative
+}
+.title-block span {
+  font-size: 200px;
+  position: absolute;
+  left: -38%;
+  top: -105%;
+  z-index: 0;
+  opacity: 20%
+}
+.backend {
+  width: 44%;
+  height: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: 610px;
+  right: 0
+}
+.backend .big-title {
+  right: -200px;
+  color: #000;
+  opacity: .3
+}
+.backend .skill-list {
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 28%
+}
+.backend .skill-list li a {
+  color: #000;
+  opacity: .4
+}
+.backend-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.backend-wrap .skills {
+  width: 50%;
+  padding-top: 212px;
+  padding-bottom: 130px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start
+}
+.backend-wrap .skilss-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 45px;
+  width: 807px
+}
+.backend-wrap .title-block span {
+  left: -96px
+}
+.backend-wrap .text {
+  width: 525px;
+  text-align: left;
+  margin-left: 107px;
+  margin-top: 27px
+}
+.backend-wrap .button-lite {
+  margin-top: 23px
 }
 .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 44%
+}
+.frontend-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.frontend-wrap .skilss-wrap {
+  width: 480px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end
+}
+.frontend-wrap .title-block {
+  margin-bottom: 40px
+}
+.frontend-wrap .skills {
+  padding-right: 8%
+}
+.text {
+  font-family: RobotoRegular;
+  font-size: 18px;
+  color: #000;
+  text-align: right;
+  letter-spacing: 0
+}
+.skill-list {
+  list-style-type: none;
+  font-family: IcelandRegular;
+  font-size: 45px;
+  color: #fff;
+  margin-left: 10%
+}
+.skill-list li {
+  margin: 20px 0
+}
+.skill-list a {
+  color: #fff;
+  text-transform: uppercase
+}
+.skill-list a:hover {
+  text-decoration: none
+}
+.but-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%
+}
+.button-lite {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  color: #000;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #000;
+  font-size: 16px
+}
+.button-lite::after {
+  content: '';
   position: absolute;
-  right: 0
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid #000;
+  width: 62%;
+  height: 1px
+}
+.button-lite::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top: 1px solid #000;
+  width: 62%;
+  height: 1px
+}
+.button-lite:hover {
+  color: #000;
+  text-decoration: none
+}
+.button-lite span {
+  margin-left: 37px;
+  margin-right: 40px
+}
+.resume-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.resume-body .big-title {
+  color: #000;
+  text-transform: none;
+  line-height: 0
+}
+@media screen and (max-width:767px) {
+  .resume-body .big-title {
+    font-size: calc(93px + 232.9 * ((100vw - 320px)/ 1900))
+  }
+}
+@media screen and (min-width:767px) {
+  .resume-body .big-title {
+    font-size: calc(93px + 137 * (100vw / 1900))
+  }
+}
+.resume-body .resume-item {
+  width: 67%;
+  padding-top: 160px;
+  padding-bottom: 95px;
+  padding-left: 13%
+}
+.resume-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 33%;
+  position: relative;
+  overflow: hidden
+}
+.resume-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0
+}
+.resume-list li {
+  margin-bottom: 55px
+}
+.resume-list .date {
+  font-family: RobotoBold;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  margin-bottom: 5px
+}
+.resume-list .item-title {
+  font-family: Robotomedium;
+  font-size: 25px
+}
+.resume-list .item-desc {
+  font-size: 18px;
+  color: #000;
+  padding-right: 20px
 }
 .main-footer {
   padding: 12px 0;
@@ -21984,6 +22276,106 @@ section .personal_header {
 .wpcr3_product .slick-disabled {
   display: none!important
 }
+.portfolio-s {
+  padding-top: 10%
+}
+.portfolio-s .title-block span {
+  left: -23%
+}
+.portfolio-wrap {
+  position: relative;
+  height: 100%;
+  margin-top: 105px;
+  padding-bottom: 300px
+}
+.portfolio-wrap .portfolio-wrap-bg {
+  position: absolute;
+  z-index: 0;
+  width: 83vw;
+  height: 100%;
+  background: #525252;
+  right: 0
+}
+.title-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding: 0 70px
+}
+.title-wrap .desc {
+  max-width: 930px;
+  font-size: 18px;
+  margin-left: 150px
+}
+.portf-cat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 320px;
+  list-style-type: none;
+  margin-left: 205px;
+  margin-bottom: 0
+}
+.portf-cat li {
+  margin-right: 80px;
+  padding-bottom: 2px
+}
+.portf-cat li a {
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  text-decoration: none
+}
+.portf-cat li a:hover {
+  -webkit-transition: .9s;
+  -o-transition: .9s;
+  transition: .9s
+}
+.portf-cat li a:hover::after {
+  -webkit-transform: translateX(-50%) scaleX(1);
+  -ms-transform: translateX(-50%) scaleX(1);
+  transform: translateX(-50%) scaleX(1)
+}
+.portf-cat li a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  -webkit-transform: translateX(-50%) scaleX(0);
+  -ms-transform: translateX(-50%) scaleX(0);
+  transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  -o-transition: transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms,-webkit-transform 250ms
+}
+.portf-cat li:first-child a {
+  color: #000;
+  font-family: RobotoBold
+}
+.portf-cat .active {
+  border-bottom: 1px solid #000
+}
+.portf-cat .active a:hover::after {
+  display: none
+}
 @media screen and (max-width:1770px) {
   .category-head .menu {
     margin-right: 10px
@@ -22024,6 +22416,12 @@ section .personal_header {
   .main-head .top-wrapper .top-centered {
     padding-left: 85px;
     padding-right: 85px
+  }
+  .frontend-wrap .skills {
+    padding-right: 0;
+    -webkit-transition: all 1.8s;
+    -o-transition: all 1.8s;
+    transition: all 1.8s
   }
 }
 @media screen and (max-width:1408px) {
@@ -22116,6 +22514,84 @@ section .personal_header {
   .feed-b-review .wpcr3_product {
     padding-left: 0
   }
+  .about-body .frontend {
+    height: 935px
+  }
+  .about-body .frontend .big-title {
+    left: -228px;
+    -webkit-transition: all 1.8s;
+    -o-transition: all 1.8s;
+    transition: all 1.8s
+  }
+  .frontend-wrap .skilss-wrap {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 70px
+  }
+  .backend {
+    height: 850px;
+    -webkit-transition: height 1.8s;
+    -o-transition: height 1.8s;
+    transition: height 1.8s
+  }
+  .backend .big-title {
+    right: -193px
+  }
+  .backend-wrap .skilss-wrap {
+    margin-right: 0;
+    -webkit-transition: all 1.8s;
+    -o-transition: all 1.8s;
+    transition: all 1.8s;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-left: 70px
+  }
+  .backend-wrap .text {
+    margin-left: 0;
+    -webkit-transition: all 1.8s;
+    -o-transition: all 1.8s;
+    transition: all 1.8s
+  }
+  .backend-wrap .skills {
+    padding-top: 320px
+  }
+  .backend-wrap .title-block {
+    margin-left: 83px
+  }
+  .resume-title {
+    position: relative;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+  }
+  .resume-body .big-title {
+    left: 0;
+    position: relative;
+    padding-top: 40px
+  }
+}
+@media screen and (max-width:1366px) and (max-width:767px) {
+  .resume-body .big-title {
+    font-size: calc(72px + 268.6 * ((100vw - 320px)/ 1900))
+  }
+}
+@media screen and (max-width:1366px) and (min-width:767px) {
+  .resume-body .big-title {
+    font-size: calc(72px + 158 * (100vw / 1900))
+  }
+}
+@media screen and (max-width:1366px) {
+  .resume-body .resume-item {
+    padding-left: 70px;
+    -webkit-transition: all 1.8s;
+    -o-transition: all 1.8s;
+    transition: all 1.8s
+  }
+  .portfolio-s .title-block {
+    margin-left: 40px
+  }
 }
 @media screen and (max-width:1300px) {
   .category-head-body .logo-container .logo-title-desc .site-title {
@@ -22160,6 +22636,9 @@ section .personal_header {
   .post .left-col .feed-b-box .title-box h3 {
     width: 190px;
     font-size: 23px
+  }
+  .frontend-wrap .skilss-wrap {
+    width: 390px
   }
 }
 @media (max-width:1199.98px) {
@@ -22370,6 +22849,37 @@ section .personal_header {
   .wpcr3_button_1 {
     margin-bottom: 0
   }
+  .backend .big-title {
+    right: -175px
+  }
+  .about-body .frontend .big-title {
+    left: -209px
+  }
+  .backend-wrap .title-block {
+    margin-left: 70px
+  }
+  .backend-wrap .text {
+    width: 100%
+  }
+  .backend-wrap .title-block span {
+    left: -82px;
+    top: -108px
+  }
+  .title-block {
+    font-size: 60px
+  }
+  .title-block span {
+    font-size: 170px
+  }
+  .resume-body .big-title {
+    padding-top: 0;
+    position: absolute;
+    left: -24px
+  }
+  .resume-body .resume-item {
+    padding-top: 130px;
+    padding-bottom: 80px
+  }
 }
 @media (max-width:991.98px) {
   .post .right-col .img-box .heart-like .likecount {
@@ -22400,6 +22910,51 @@ section .personal_header {
   }
   .feed-b-review .wpcr3_caps {
     font-size: 25px
+  }
+  .about-body .frontend {
+    width: 54%;
+    height: 760px
+  }
+  .about-body .frontend .big-title {
+    left: -190px
+  }
+  .frontend-wrap .skilss-wrap {
+    width: 100%;
+    padding-right: 45px;
+    padding-left: 10px
+  }
+  .title-block {
+    font-size: 40px
+  }
+  .title-block span {
+    font-size: 112px
+  }
+  .text {
+    font-size: 16px
+  }
+  .skill-list {
+    font-size: 35px
+  }
+  .backend {
+    height: 710px;
+    top: 470px
+  }
+  .backend-wrap .title-block {
+    margin-left: 46px
+  }
+  .backend-wrap .title-block span {
+    left: -54px;
+    top: -65px
+  }
+  .resume-body .big-title {
+    left: -60px
+  }
+  .resume-body .resume-item {
+    padding-top: 90px;
+    padding-bottom: 40px
+  }
+  .title-wrap .desc {
+    font-size: 16px
   }
 }
 @media screen and (max-width:945px) {
@@ -22554,6 +23109,63 @@ section .personal_header {
     display: none
   }
 }
+@media screen and (max-width:887px) {
+  .feed-b-review .feed-review-title {
+    width: 100%;
+    text-align: center
+  }
+  .feed-b-review div.wpcr3_review {
+    padding: 0 10px
+  }
+  .feed-b-review div.wpcr3_review .wpcr3_caps {
+    text-align: center;
+    width: 100%
+  }
+  .feed-b-review div.wpcr3_review .wpcr3_review_datePublished {
+    text-align: center;
+    width: 100%
+  }
+  .feed-b-review div.wpcr3_review .wpcr3_content p {
+    width: 100%;
+    text-align: center
+  }
+  .feed-b-review div.wpcr3_review .wpcr3_review_ratingValue {
+    width: 100%;
+    text-align: center
+  }
+  .feed-b-review div .wpcr3_rating_style1_base {
+    -moz-text-align-last: left;
+    text-align-last: left
+  }
+  .skill-list {
+    font-size: 25px;
+    margin-left: 17%
+  }
+  .resume-list .date {
+    font-size: 18px
+  }
+  .resume-list .item-title {
+    font-size: 20px
+  }
+  .resume-list .item-desc {
+    font-size: 16px
+  }
+}
+@media screen and (max-width:887px) and (max-width:767px) {
+  .resume-body .big-title {
+    font-size: calc(63px + 283.9 * ((100vw - 320px)/ 1900))
+  }
+}
+@media screen and (max-width:887px) and (min-width:767px) {
+  .resume-body .big-title {
+    font-size: calc(63px + 167 * (100vw / 1900))
+  }
+}
+@media screen and (max-width:887px) {
+  .title-wrap .desc {
+    margin-left: 70px
+  }
+}
 @media (max-width:767.98px) {
   .main-head {
     padding-left: 30px;
@@ -22587,34 +23199,97 @@ section .personal_header {
   .port-descr p {
     max-width: 100%
   }
-}
-@media screen and (max-width:887px) {
-  .feed-b-review .feed-review-title {
+  .about-body .frontend {
+    height: 460px
+  }
+  .about-body .frontend .big-title {
+    left: -110px
+  }
+  .big-title {
+    font-size: 70px
+  }
+  .skill-list li {
+    margin: 10px 0
+  }
+  .frontend-wrap .skilss-wrap {
+    padding-top: 0;
+    height: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-top: 55px
+  }
+  .backend {
+    height: 417px;
+    top: 280px;
+    position: absolute;
+    right: 0
+  }
+  .backend .big-title {
+    right: -100px
+  }
+  .backend-wrap .skilss-wrap {
+    padding-left: 45px
+  }
+  .backend-wrap .skills {
+    width: 70%;
+    padding-top: 195px
+  }
+  .resume-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse
+  }
+  .resume-body .resume-item {
     width: 100%;
-    text-align: center
+    padding-top: 50px;
+    padding-bottom: 0
   }
-  .feed-b-review div.wpcr3_review {
-    padding: 0 10px
+  .resume-body .big-title {
+    position: relative;
+    font-size: 53px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    left: auto;
+    color: #fff;
+    opacity: .4
   }
-  .feed-b-review div.wpcr3_review .wpcr3_caps {
-    text-align: center;
-    width: 100%
+  .resume-title {
+    overflow: unset;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 251px;
+    height: 320px;
+    background: #525252;
+    position: absolute;
+    top: -105px
   }
-  .feed-b-review div.wpcr3_review .wpcr3_review_datePublished {
-    text-align: center;
-    width: 100%
+  .resume-list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
   }
-  .feed-b-review div.wpcr3_review .wpcr3_content p {
-    width: 100%;
-    text-align: center
+  .resume-list li {
+    width: 195px;
+    margin-right: 30px;
+    margin-bottom: 40px
   }
-  .feed-b-review div.wpcr3_review .wpcr3_review_ratingValue {
-    width: 100%;
-    text-align: center
+  .resume-list li:first-child {
+    margin-left: 225px
   }
-  .feed-b-review div .wpcr3_rating_style1_base {
-    -moz-text-align-last: left;
-    text-align-last: left
+  .resume-list .item-title {
+    width: 190px
+  }
+  .resume-list .item-desc {
+    margin-bottom: 0
   }
 }
 @media screen and (max-width:730px) {
@@ -22641,6 +23316,9 @@ section .personal_header {
   }
   .category-head-body .logo-container .logo-title-desc .desc {
     width: 125px
+  }
+  .frontend-wrap .skilss-wrap {
+    padding-right: 35px
   }
 }
 @media (max-width:575.98px) {
@@ -22685,6 +23363,73 @@ section .personal_header {
   .category-head-body {
     padding: 0 20px
   }
+  .about-body .frontend {
+    top: 0;
+    width: 80%
+  }
+  .about-body .frontend .big-title {
+    left: -133px
+  }
+  .frontend-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse
+  }
+  .frontend-wrap .skilss-wrap {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 75px;
+    padding-bottom: 55px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%
+  }
+  .skills {
+    width: 100%
+  }
+  .text {
+    text-align: center
+  }
+  .backend-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+  }
+  .backend-wrap .skilss-wrap {
+    padding-left: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+  .backend-wrap .skilss-wrap .but-wrap {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+  .backend-wrap .skills {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 70px
+  }
+  .backend-wrap .text {
+    text-align: center
+  }
+  .backend {
+    position: relative;
+    top: -25px;
+    z-index: 0;
+    width: 75%
+  }
+  .backend .big-title {
+    right: -110px
+  }
   .main-footer {
     text-align: left
   }
@@ -22712,6 +23457,88 @@ section .personal_header {
   .wpcr3_product .slick-next {
     right: -30px
   }
+  .portfolio-s {
+    padding-top: 90px
+  }
+  .title-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 30px
+  }
+  .title-wrap .desc {
+    padding-top: 30px;
+    margin-left: 0;
+    text-align: center
+  }
+}
+@media screen and (max-width:520px) {
+  .resume-body {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+  .resume-body .resume-item {
+    min-height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 70px;
+    padding-top: 125px
+  }
+  .resume-body .slick-track {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+  }
+  .resume-body .resume-list {
+    min-width: 0;
+    position: relative
+  }
+  .resume-body .resume-list li {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px
+  }
+  .resume-body .resume-list li:first-child {
+    margin-left: 0
+  }
+  .resume-body .resume-list .item-title {
+    width: auto
+  }
+  .resume-body .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 10;
+    font-size: 0;
+    width: 34px;
+    height: 34px;
+    border: 0
+  }
+  .resume-body .slick-prev {
+    left: -50px;
+    top: 200px;
+    background: url(../img/left-arrow.svg) 0 0 no-repeat
+  }
+  .resume-body .slick-next {
+    right: -45px;
+    top: -10px;
+    background: url(../img/right-arrow.svg) 0 0 no-repeat
+  }
+  .resume-body .slick-disabled {
+    display: none!important
+  }
+  .resume-title {
+    height: 244px
+  }
+  .backend-wrap .skills {
+    padding-bottom: 155px
+  }
 }
 @media screen and (max-width:425px) {
   .post .left-col .post-content {
@@ -22734,6 +23561,9 @@ section .personal_header {
   .top-wrapper .top-descr .top-centered .container-fluid .main-button .button {
     width: 280px
   }
+  .backend-wrap .title-block {
+    margin-left: 30px
+  }
 }
 @media screen and (max-height:697px) {
   .main-head .social-wrap {
@@ -22745,5 +23575,8 @@ section .personal_header {
   }
   .top-wrapper .top-descr .top-centered .container-fluid .main-button {
     padding-bottom: 0
+  }
+  .about-body .frontend {
+    top: -60px
   }
 }

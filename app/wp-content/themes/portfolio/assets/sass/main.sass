@@ -14,6 +14,10 @@
 .main-head
 	.container-fluid
 		max-width: 1440px
+div,
+p,
+a 
+	letter-spacing: 0
 body
 	font-size: 14px
 	min-width: 320px
@@ -361,19 +365,211 @@ $h: 3px
 	text-transform: uppercase
 	font-family: 'Robotoblack'
 	opacity: 0.4
-	transform: rotate(-90deg)
-#about
+	transform: rotate(90deg)
+	color: white
+	position: absolute
+	line-height: normal
+	//transform-origin: 0 0
+	//transform: rotate(90deg) translateX(-38%) translateY(-100%)
+#about, #resume
 	padding: 0
 .about-body
 	position: relative
 	.frontend
 		width: 55%
+		height: 1039px
+		display: flex 
+		align-items: center
+		justify-content: center
+		position: relative
+		z-index: 1
+		top: -57px
 		.big-title
-			color: white
+			left: -261px
 
-.skills
+.title-block
+	font-family: 'RobotoBold'
+	font-size: 70px
+	color: #000
+	position: relative
+	span
+		font-size: 200px
+		position: absolute
+		left: -38%
+		top: -105%
+		z-index: 0
+		opacity: 20%
+.backend
+	width: 44%
+	height: 940px
+	display: flex 
+	align-items: center
+	justify-content: center	
 	position: absolute
+	z-index: 1
+	top: 610px
 	right: 0
+	.big-title
+		right: -200px
+		color: #000
+		opacity: 0.3
+		//color: rgba(0,0,0,.3)
+	.skill-list
+		margin-left: 0
+		padding-left: 0
+		margin-right: 28%
+		li 
+			a 			
+				color: #000
+				opacity: 0.4
+.backend-wrap
+	display: flex
+	justify-content: space-between
+	.skills
+		width: 50%
+		padding-top: 212px
+		padding-bottom: 130px
+		align-items: flex-start
+	.skilss-wrap
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		margin-right: 45px
+		width: 807px
+	.title-block 
+		span
+			left: -96px
+	.text
+		width: 525px
+		text-align: left
+		margin-left: 107px
+		margin-top: 27px
+	.button-lite
+		margin-top: 23px
+.skills
+	display: flex 
+	justify-content: center
+	width: 44%
+.frontend-wrap
+	display: flex
+	justify-content: space-between
+	.skilss-wrap
+		width: 480px
+		height: 500px
+		display: flex
+		justify-content: flex-end
+		flex-direction: column
+		align-items: flex-end
+	.title-block
+		margin-bottom: 40px
+	.skills
+		padding-right: 8%
+.text
+	font-family: 'RobotoRegular'
+	font-size: 18px
+	color: #000
+	text-align: right
+	+kerning(0)
+.skill-list
+	list-style-type: none
+	font-family: 'IcelandRegular'
+	font-size: 45px
+	color: #fff
+	margin-left: 10%
+	li 
+		margin: 20px 0
+	a
+		color: #fff
+		text-transform: uppercase
+		&:hover
+			text-decoration: none
+.but-wrap
+	display: flex
+	justify-content: flex-end
+	width: 100%
+.button-lite
+	position: relative
+	z-index: 1
+	text-decoration: none
+	color: #000
+	height: 60px
+	display: flex
+	align-items: center
+	border-right: 1px solid #000
+	//padding-right: 40px
+	font-size: 16px
+	&::after
+		content: ''
+		position: absolute
+		right: 0
+		bottom: 0
+		border-bottom: 1px solid #000
+		width: 62%
+		height: 1px
+	&::before
+		content: ''
+		position: absolute
+		right: 0
+		top: 0
+		border-top: 1px solid #000
+		width: 62%
+		height: 1px
+	&:hover
+		color: #000
+		text-decoration: none
+	span 
+		margin-left: 37px
+		margin-right: 40px
+
+
+//section resume
+
+.resume-body
+	display: flex 
+	justify-content: space-between
+	.big-title
+		color: #000
+		text-transform: none
+		//font-size: 230px
+		@include adaptiv-font(230,93)
+		line-height: 0
+	.resume-item
+		width: 67%
+		padding-top: 160px
+		padding-bottom: 95px
+		padding-left: 13%
+.resume-title
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 33%
+	position: relative
+	overflow: hidden
+
+.resume-list
+	list-style-type: none
+	margin-left: 0
+	padding-left: 0
+	li 
+		margin-bottom: 55px
+	.date
+		font-family: 'RobotoBold'
+		font-size: 20px
+		color: #fff
+		display: block
+		margin-bottom: 5px
+	.item-title
+		font-family: 'Robotomedium'
+		font-size: 25px
+	.item-desc
+		font-size: 18px
+		color: #000
+		padding-right: 20px
+
+
+//section resume
+
 
 .main-footer
 	padding: 12px 0
@@ -1159,5 +1355,79 @@ $h: 3px
 	.slick-disabled
 		display: none !important
 
+//section portfolio-s
+.portfolio-s
+	padding-top: 10%
+	.title-block
+		span 
+			left: -23%
+.portfolio-wrap
+	position: relative
+	height: 100%
+	margin-top: 105px
+	padding-bottom: 300px
+	.portfolio-wrap-bg
+		position: absolute
+		z-index: 0
+		width: 83vw
+		height: 100%
+		background: #525252
+		right: 0
+.title-wrap
+	display: flex 
+	align-items: center
+	justify-content: space-evenly
+	padding: 0 70px
+	.desc
+		max-width: 930px
+		font-size: 18px
+		margin-left: 150px
+
+.portf-cat
+	display: flex
+	align-items: center
+	position: relative
+	height: 320px
+	list-style-type: none
+	margin-left: 205px
+	margin-bottom: 0
+	li
+		margin-right: 80px
+		padding-bottom: 2px
+		a 
+			font-size: 20px
+			color: #fff
+			position: relative
+			text-decoration: none
+			&:hover
+				//color: #000
+				transition: .9s
+				&::after
+					transform: translateX(-50%) scaleX(1) //тут вся магия активируется описание строкой ниже
+			&::after
+				content: ''
+				position: absolute
+				left: 50%
+				bottom: -4px
+				transform: translateX(-50%) scaleX(0)
+				transform-origin: 50% 50%
+				width: 100%
+				height: 1px
+				background-color: #000
+				transition: transform 250ms
+		&:first-child
+			a
+				color: #000
+				font-family: 'RobotoBold'
+	.active
+		border-bottom: 1px solid #000
+		a
+			&:hover
+				&::after
+					display: none
+
+
+
+//section portfolio-s end
 
 @import "media" // Always at the end

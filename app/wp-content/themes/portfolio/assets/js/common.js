@@ -1,6 +1,18 @@
 $(document).ready(function() {
 
 	
+	var str = $('.frontend-wrap .title-block').text();  //ищим наш логотип
+		str = '<span>' + str.substring(0,1) + '</span>' + str.slice(1); //str.slice(0 , -1) перет все символы из логотипа кроме последней. добовляем тег <span> и str.substr(-1) возвращает последний сивол
+		$('.frontend-wrap .title-block').html(str); //выводим что получилось
+	
+	var str = $('.backend-wrap .title-block').text();  //ищим наш логотип
+		str = '<span>' + str.substring(0,1) + '</span>' + str.slice(1); //str.slice(0 , -1) перет все символы из логотипа кроме последней. добовляем тег <span> и str.substr(-1) возвращает последний сивол
+		$('.backend-wrap .title-block').html(str); //выводим что получилось
+	
+	var str = $('.portfolio-s .title-block').text();  //ищим наш логотип
+		str = '<span>' + str.substring(0,1) + '</span>' + str.slice(1); //str.slice(0 , -1) перет все символы из логотипа кроме последней. добовляем тег <span> и str.substr(-1) возвращает последний сивол
+		$('.portfolio-s .title-block').html(str); //выводим что получилось
+
 	$('#wpcr3_fname').attr('placeholder','Your name');
 	$('#id_wpcr3_ftext').attr('placeholder','Comment');
 	$('#wpcr3_femail').attr('placeholder','Your e-mail');
@@ -12,8 +24,15 @@ $(document).ready(function() {
 	});
 	//$("#portfolio_grid").mixItUp();
 
-	$(".s-portfolio li").click(function() {
+	/*
+		$(".s-portfolio li").click(function() {
 		$(".s-portfolio li").removeClass("active");
+		$(this).addClass("active");
+	});
+	*/
+
+	$(".portfolio-s li").click(function() {
+		$(".portfolio-s li").removeClass("active");
 		$(this).addClass("active");
 	});
 
@@ -25,10 +44,10 @@ $(document).ready(function() {
 
 
 		$(".animation-1").animated("flipInY", "flipOutY");
-		$(".animation-2").animated("fadeInLeft", "fadeOutLeft");
-		$(".animation-3").animated("fadeInRight", "fadeOutRight");
-		$(".left .resume-item").animated("fadeInLeft", "fadeOutDown");
-		$(".right .resume-item").animated("fadeInRight", "fadeOutDown");
+		$(".portfolio-s .title-block").animated("fadeInLeft", "fadeOutLeft");
+		$(".portfolio-s .desc").animated("fadeInRight", "fadeOutRight");
+		//$(".left .resume-item").animated("fadeInLeft", "fadeOutDown");
+		//$(".right .resume-item").animated("fadeInRight", "fadeOutDown");
 	}	
 
 
@@ -237,6 +256,28 @@ $('.wpcr3_product').slick({
 		}
 	]
 });
+
+window.onresize = function(event) {
+	var mql = window.matchMedia('screen and (max-width: 520px)');
+	if (mql.matches) {
+
+		$('.resume-list').slick({
+		arrow: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		swipeToSlide: true,
+		infinite: false, //прокрутка бесконечна - true
+		});
+
+	} else {
+	    // нет, размер окна более 479px 
+	}
+};
+
+
+
+
+
 
 
 
