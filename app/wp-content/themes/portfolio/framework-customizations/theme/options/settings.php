@@ -106,6 +106,42 @@ $options = array(
                 'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
                 'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
             ),
+            'mail_link' => array(
+                'type' => 'text',
+                'label' => __('Mail Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'mail_svg' => array(
+                'type' => 'textarea',
+                'label' => __('Mail SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+            ),
+            'phone_link' => array(
+                'type' => 'text',
+                'label' => __('Phone Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'phone_svg' => array(
+                'type' => 'textarea',
+                'label' => __('Phone SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+            ),
+            'skype_link' => array(
+                'type' => 'text',
+                'label' => __('Skype Link', 'portfolio'),
+                'desc' => __('Add Your Social Media Profile Links to Your Account ', 'portfolio'),
+                'help' => __('Not have link, enter #, if you want see icon on the page', 'portfolio'),
+            ),
+            'skype_svg' => array(
+                'type' => 'textarea',
+                'label' => __('Skype SVG', 'portfolio'),
+                'desc' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+                'help' => __('Copy and paste the SVG attributes here...', 'portfolio'),
+            ),
         ),
     ),
 );

@@ -20,21 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e4a622d-b1e5-480c-9012-d3107b5b7a37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/Iceland-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/Iceland-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/Iceland-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/fonts/Iceland/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/main page.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgupload/main page.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/icon_svg/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/icon_svg/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/icon_svg/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/icon_svg/skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/img/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/libs/counterup/counterup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgupload/icon_svg/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgupload/icon_svg/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgupload/icon_svg/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgupload/icon_svg/skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgupload/share.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/_vars.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/skins/tomato.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/assets/sass/skins/tomato.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/framework-customizations/theme/options/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/framework-customizations/theme/options/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header-front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/header-front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/inc/customizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/inc/customizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/portfolio/inc/ajax/ajax-filter-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/wp-content/themes/portfolio/inc/ajax/ajax-filter-post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/wp-content/themes/wp_gd.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +107,7 @@
       <workItem from="1613230997125" duration="1235000" />
       <workItem from="1615539157558" duration="3625000" />
       <workItem from="1615550876124" duration="3262000" />
+      <workItem from="1619006529216" duration="617000" />
     </task>
     <servers />
   </component>

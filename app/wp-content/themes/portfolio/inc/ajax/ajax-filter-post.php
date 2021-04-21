@@ -8,14 +8,17 @@ function filter_ajax() {
 
     $args = array(
         'post_type' => 'post',
-        'posts_per_page' => -1,
+        'post_status' => 'publish',
     );
 
     if(isset($category)){
-        $args['category__in'] = array($category);
+        $args['category__in'] = $category;
     }
-
+    //debug($args);
     $query = new WP_Query($args);
+    //debug(query_posts( $args ));
+    //query_posts( $args );
+    //debug($args);
 ?>
     <div class="masonry-container " id="portfolio_grid">
         <div class="d-flex justify-content-center">

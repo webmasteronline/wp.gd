@@ -13,6 +13,11 @@ $(document).ready(function() {
 		str = '<span>' + str.substring(0,1) + '</span>' + str.slice(1); //str.slice(0 , -1) перет все символы из логотипа кроме последней. добовляем тег <span> и str.substr(-1) возвращает последний сивол
 		$('.portfolio-s .title-block').html(str); //выводим что получилось
 
+	var str = $('#contacts .title-block').text();  //ищим наш логотип
+		str = str.trim();
+		str = '<span>' + str.substring(0,1) + '</span>' + str.slice(1); //str.slice(0 , -1) перет все символы из логотипа кроме последней. добовляем тег <span> и str.substr(-1) возвращает последний сивол
+		$('#contacts .title-block').html(str); //выводим что получилось
+
 	$('#wpcr3_fname').attr('placeholder','Your name');
 	$('#id_wpcr3_ftext').attr('placeholder','Comment');
 	$('#wpcr3_femail').attr('placeholder','Your e-mail');
@@ -30,6 +35,12 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 	*/
+	
+	$('#count-s .count').countUp({
+		delay: 10,
+		time: 1500
+	});
+
 
 	$(".portfolio-s li").click(function() {
 		$(".portfolio-s li").removeClass("active");
@@ -44,8 +55,8 @@ $(document).ready(function() {
 
 
 		$(".animation-1").animated("flipInY", "flipOutY");
-		$(".portfolio-s .title-block").animated("fadeInLeft", "fadeOutLeft");
-		$(".portfolio-s .desc").animated("fadeInRight", "fadeOutRight");
+		//$(".portfolio-s .title-block").animated("fadeInLeft", "fadeOutLeft");
+		//$(".portfolio-s .desc").animated("fadeInRight", "fadeOutRight");
 		//$(".left .resume-item").animated("fadeInLeft", "fadeOutDown");
 		//$(".right .resume-item").animated("fadeInRight", "fadeOutDown");
 	}	

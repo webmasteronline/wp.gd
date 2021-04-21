@@ -47,6 +47,16 @@
 			transition: all 1.8s
 	//Section about end
 
+	//section contact 
+	#contacts
+		.contact-bg
+			align-items: end
+			padding-left: 105px
+	.contact-header
+		padding-right: 200px !important
+
+	//section contact end
+
 
 @media screen and (max-width: 1408px)
 	.post
@@ -73,6 +83,13 @@
 			input
 				margin-left: 0px
 				margin-top: 30px
+	//section contact 
+	.contact-header
+		padding-right: 135px !important
+			
+			
+
+	//section contact end
 
 @media screen and (max-width: 1366px)
 	.main-head
@@ -177,7 +194,28 @@
 	.portfolio-s
 		.title-block
 			margin-left: 40px
+	.portf-cat
+		margin-left: 12%
 	//section portfolio-s end
+
+
+	//section contact 
+	.contact-header
+		padding-right: 70px !important
+	#contacts 
+		.contact-form
+			width: 440px
+		.fw_form_fw_form 
+			button
+				margin-top: 25px
+	//section contact end
+
+	//section count
+	.count-wrap 
+		.count-text
+			font-size: 20px
+			line-height: 120px
+	//section count end
 
 @media screen and (max-width: 1300px)
 	.category-head-body 
@@ -193,6 +231,12 @@
 			li 
 				a
 					font-size: 16px
+	//section contact 
+	#contacts 
+		.contact-bg
+			padding-left: 70px
+
+	//section contact end
 
 @media screen and (max-width: 1285px)
 	.post
@@ -422,6 +466,19 @@
 			padding-top: 130px
 			padding-bottom: 80px
 	//section resume end
+	//section portfolio-s
+	.portf-cat
+		height: auto
+		padding-top: 55px
+		padding-bottom: 50px
+	.portfolio-wrap
+		padding-bottom: 100px
+	//section portfolio-s end
+	//section contact 
+	#contacts 
+		.contact-form
+    	width: 360px
+	//section contact end
 
 // ≥992px
 +media-breakpoint-down(md)
@@ -503,7 +560,59 @@
 	.title-wrap 
 		.desc
 			font-size: 16px
+	.portf-cat
+		margin-left: 10%
+		li 
+			a 
+				font-size: 16px
+	.portfolio-wrap
+		margin-top: 70px
 	//section portfolio-s end
+
+	//section contact 
+	.contact-header 
+		.s-descr
+			font-size: 16px
+			margin-top: 40px
+	#contacts 
+		.contact-box
+			.title-attr
+				font-size: 16px
+			.attribut
+				font-size: 20px
+		.fw_form_fw_form 
+			button
+				font-size: 25px
+				padding-top: 10px
+				padding-bottom: 10px
+				padding-left: 70px
+				padding-right: 70px
+		.contact-form
+			width: 100%
+		.contact-bg
+			padding-left: 55px
+			padding-right: 55px
+			padding-top: 55px
+			padding-bottom: 55px
+	.title-form-contact
+		padding-right: 0
+	//section contact end
+
+	//section count
+	#count-s
+		padding-top: 0
+	.count-wrap
+		flex-direction: column
+		align-items: center
+		.count
+			margin-right: 0
+		.count-text
+			font-size: 20px
+			line-height: 60px
+			&::before
+				right: 12%
+	//section count end	
+
 
 //mob ver image full screen
 @media screen and (max-width: 945px)
@@ -607,6 +716,50 @@
 			padding: 0 57px
 	.right-col
 		display: none
+	//section portfolio-s
+	.portf-cat
+		li 
+			margin-right: 60px
+	//section portfolio-s end
+
+	//footer
+	.attr-list
+		li 
+			p 
+				font-size: 16px
+	.main-footer 
+		padding: 65px 0
+		.footer-menu 
+			.menu 
+				li 
+					a
+						font-size: 16px
+	.share-wrap
+		width: 195px
+		height: 54px
+	.footer-wrap 
+		.social-wrap
+			display: flex
+			align-items: center
+			flex-direction: column
+			.svg-icon
+				height: 27px
+				svg
+					width: 27px
+					height: 27px
+			.text	
+				font-size: 30px
+	.icon-list
+		a
+			svg
+				width: 26px
+				height: 25px
+		li 
+			.vk-icon 
+				svg
+					width: 32px
+					height: 28px
+	//footer end
 
 //≥887
 @media screen and (max-width: 887px)
@@ -658,6 +811,29 @@
 		.desc
 			margin-left: 70px
 	//section portfolio-s end
+
+	//section contact //≥887
+	.contact-header
+		padding-right: 55px!important
+	.contact-header 
+		.s-descr
+			max-width: 230px
+	#contacts
+		.contact-box
+			width: 45%
+			padding-right: 0
+			.contact-attribute
+				width: 250px
+		.contact-bg
+			width: 55%
+
+
+
+	//section contact end
+	//footer
+	#menu-footer-menu
+		padding-left: 20px
+	//footer end
 
 // ≥768px
 +media-breakpoint-down(sm)
@@ -760,6 +936,49 @@
 			margin-bottom: 0
 
 	//section resume end
+	//section count
+	#count-s
+		.fw-row
+			display: flex 
+			justify-content: center
+			align-items: center
+			flex-wrap: wrap
+	.count-wrap
+		width: 33.3333%
+	//section count end	
+	//footer
+	.main-footer
+		padding-right: 20px
+		padding-left: 20px
+		padding-top: 50px
+		padding-bottom: 70px
+	#menu-footer-menu
+		padding-left: 0px
+		.footer-menu 
+			.menu 
+				li 
+					a
+						font-size: 14px
+	.attr-list
+		display: flex
+		flex-direction: column
+		align-items: flex-end	
+		li 
+			p
+				font-size: 14px
+				margin-left: 0
+		.mail-icon, .phone-icon, .skype-icon
+			display: none
+	.share-wrap
+		display: none
+	.footer-wrap 
+		justify-content: space-between
+		.social-wrap
+			position: absolute
+			right: 0
+			bottom: -34px
+
+	//footer end
 
 //≥730px
 @media screen and (max-width: 730px)
@@ -787,6 +1006,54 @@
 		.skilss-wrap
 			padding-right: 35px
 	//Section about end
+	//section portfolio-s
+	.portf-cat
+		flex-direction: column
+		margin-left: 8%
+		padding-bottom: 30px
+		li
+			margin-right: 0px
+			margin-bottom: 15px
+			&:first-child
+				position: absolute
+				left: 0				
+				a
+					color: #000		
+
+	//section portfolio-s end
+
+//≥690px
+@media screen and (max-width: 690px)
+
+	//section contact //≥690
+	.contact-header 
+		padding-right: 15px!important
+	#contacts
+		.fw-container-fluid
+			.fw-row
+				&:first-child
+					position: relative
+					width: auto
+				&:last-child
+					display: block
+		.contact-bg
+			width: 100%
+		.contact-box
+			width: 100%
+			padding-top: 60px
+			padding-left: 15px
+			padding-right: 15px
+			.contact-attribute
+				text-align: center
+	.contact-header
+		align-items: center
+		.s-descr
+			max-width: 100%
+			margin-bottom: 50px
+			margin-top: 30px
+
+	//section contact end
+
 
 // ≥576px
 +media-breakpoint-down(xs)
@@ -879,14 +1146,6 @@
 
 	//Section about end
 
-	.main-footer
-		text-align: left
-		.social-wrap
-			float: left
-			margin-top: 20px
-			width: 100%
-			ul
-				padding-left: 0px
 	.img-box-mob 
 		img
 			padding: 0 20px
@@ -912,7 +1171,26 @@
 			margin-left: 0px
 			text-align: center
 	//section portfolio-s end
-
+	//section count
+	.count-wrap
+		width: 185px
+		.count-text
+			line-height: 20px
+			&::before
+				display: none
+		&:last-child
+			margin-top: 30px
+			.count
+				padding-top: 10px
+				&::before
+					content: ''
+					position: absolute
+					top: 0
+					width: 75%
+					height: 1px
+					right: 12%
+					background: #000
+	//section count end	
 
 // ≥520px
 @media screen and (max-width: 520px)
@@ -995,6 +1273,20 @@
 		.title-block
 			margin-left: 30px
 	//Section about end
+	//section contact
+	#contacts 
+		.contact-bg
+			padding-left: 25px
+			padding-right: 25px
+	//section contact end
+
+	//section count
+	.count-wrap
+		width: 160px
+		.count-text
+			font-size: 16px
+
+	//section count end	
 
 
 /*==========  Mobile First  ==========*/

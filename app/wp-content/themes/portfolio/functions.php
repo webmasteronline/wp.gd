@@ -52,6 +52,7 @@ if ( ! function_exists( 'portfolio_setup' ) ) :
 			array(
 				'menu-1' => esc_html__( 'Primary', 'portfolio' ),
 				'menu-2' => esc_html__( 'Category Menu', 'portfolio' ),
+				'menu-3' => esc_html__( 'Footer Menu', 'portfolio' ),
 			)
 		);
 

@@ -88,7 +88,7 @@
 	<div class="portfolio-wrap container-fluid">
 		<div class="portfolio-wrap-bg">	</div>
 	    <div class="filter_div controls">
-	      <div class="row categories">
+	      <div class="categories">
 	          <ul class="portf-cat">
 	              <li class="filter js-filter-item active" data-filter="all" id="all"><a href="">All</a></li>
 	              <?php

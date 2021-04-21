@@ -3,34 +3,35 @@
 
 get_header();
 ?>
+<h1>Categori.php</h1>
     <section class="s-portfolio bg-dark">
         <div class="container-fluid ">
             <div class="filter_div controls">
-                <div class="row categories">
+<!--                <div class="row categories">
                     <ul>
                         <?php
-                        $id = 7;
-                        $term_link = get_term_link($id, ''); ?>
-                        <li class=" active cat" data-filter="all" id="all"><?php echo '<a href="'. $term_link .'"> ВСЕ РАБОТЫ </a>' ?></li>
+/*                        $id = 7;
+                        $term_link = get_term_link($id, ''); */?>
+                        <li class=" active cat" data-filter="all" id="all"><?php /*echo '<a href="'. $term_link .'"> ВСЕ РАБОТЫ </a>' */?></li>
                         <?php
-                        $cat_args = array(
+/*                        $cat_args = array(
                             'exclude' => array(1,7),
                             'option_all' => 'ALL'
                         );
                         $categories = get_categories($cat_args);
 
-                        debug($categories);
+                       // debug($categories);
                         
                         $posttags = get_the_tags();
-                        debug($posttags);
+                        //debug($posttags);
                         foreach ($categories as $cat) :
-                            ?>
-                            <li class="filter" ><a data-category="<?php echo $cat->term_id; ?>" href="<?php echo get_category_link($cat->term_id); ?>" id="frontend"><?php echo $cat->name ?></a></li>
+                            */?>
+                            <li class="filter" ><a data-category="<?php /*echo $cat->term_id; */?>" href="<?php /*echo get_category_link($cat->term_id); */?>" id="frontend"><?php /*echo $cat->name */?></a></li>
                         <?php
-                        endforeach;
-                        ?>
+/*                        endforeach;
+                        */?>
                     </ul>
-                </div>
+                </div>-->
             </div>
             <div class="js-filter">
                 <div class="masonry-container " id="portfolio_grid">
@@ -100,6 +101,6 @@ get_header();
     </section>
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
 ?>

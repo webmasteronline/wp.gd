@@ -17,6 +17,7 @@ let paths = {
 			'app/wp-content/themes/portfolio/assets/libs/mixitup/mixitup.min.js',
 			'app/wp-content/themes/portfolio/assets/libs/PageScroll2id/PageScroll2id.min.js',
 			'app/wp-content/themes/portfolio/assets/libs/waypoints/waypoints.min.js',		
+			'app/wp-content/themes/portfolio/assets/libs/counterup/counterup.js',		
 			'app/wp-content/themes/portfolio/assets/libs/animate/animate-css.js',
 			'app/wp-content/themes/portfolio/assets/libs/jqBootstrapValidation/jqBootstrapValidation.js',
 			'app/wp-content/themes/portfolio/assets/libs/imagesloaded/imagesloaded.pkgd.min.js',
