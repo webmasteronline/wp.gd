@@ -27,6 +27,17 @@ $(document).ready(function() {
 			$('body').toggleClass('lock'); // отключаем скрол у контента когда открыто мобильное меню
 
 	});
+
+	$(".header__burger").click(function(){
+		if ($(".top-menu-categ").is(".active")){
+			$(".top-text").css("opacity", ".1");
+			$(".category-head-body").fadeIn(600);
+			$(".category-head-body li a").addClass("fadeInDown animated");
+		} else {
+			$(".top-text").css("opacity", "1");
+			$(".category-head-body li a").removeClass("fadeInDown animated");
+		};
+	});
 	//$("#portfolio_grid").mixItUp();
 
 	/*
@@ -36,10 +47,7 @@ $(document).ready(function() {
 	});
 	*/
 	
-	$('#count-s .count').countUp({
-		delay: 10,
-		time: 1500
-	});
+
 
 
 	$(".portfolio-s li").click(function() {
@@ -52,6 +60,8 @@ $(document).ready(function() {
 	if (document.body.clientWidth>768){
 		$(".top-text h1").animated("fadeInDown", "fadeOutUp");
 		$(".top-text p, .section-header").animated("fadeInUp", "fadeOutDown");
+		$(".big-title").animated("fadeIn", "fadeOut");
+
 
 
 		$(".animation-1").animated("flipInY", "flipOutY");
@@ -212,7 +222,7 @@ $(document).ready(function() {
 	$(".loader-inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
-});
+}); 
 
 // Post likes
 
@@ -286,8 +296,10 @@ window.onresize = function(event) {
 };
 
 
-
-
+	$('.count').countUp({
+		delay: 10,
+		time: 1500
+	});
 
 
 

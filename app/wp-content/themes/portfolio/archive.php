@@ -9,6 +9,7 @@
 
 get_header();
 ?>
+<h1>arhove.php</h1>
 	<main id="primary" class="site-main">
 
 		<?php if ( have_posts() ) : ?>

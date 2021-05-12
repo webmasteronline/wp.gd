@@ -3,40 +3,39 @@
 
 get_header();
 ?>
-<h1>Categori.php</h1>
-    <section class="s-portfolio bg-dark">
-        <div class="container-fluid ">
+<div class="category-page">
+    <section class="portfolio-s">
+        <div class="title-wrap">
+            <p class="title-block"><?php if( is_category() )
+                $cat_name = get_queried_object()->name;
+    echo trim($cat_name); ?></p>            
+        </div>
+        <div class="portfolio-wrap container-fluid ">
+            <div class="portfolio-wrap-bg"></div>
             <div class="filter_div controls">
-<!--                <div class="row categories">
-                    <ul>
-                        <?php
-/*                        $id = 7;
-                        $term_link = get_term_link($id, ''); */?>
-                        <li class=" active cat" data-filter="all" id="all"><?php /*echo '<a href="'. $term_link .'"> ВСЕ РАБОТЫ </a>' */?></li>
-                        <?php
-/*                        $cat_args = array(
-                            'exclude' => array(1,7),
-                            'option_all' => 'ALL'
-                        );
-                        $categories = get_categories($cat_args);
-
-                       // debug($categories);
-                        
-                        $posttags = get_the_tags();
-                        //debug($posttags);
-                        foreach ($categories as $cat) :
-                            */?>
-                            <li class="filter" ><a data-category="<?php /*echo $cat->term_id; */?>" href="<?php /*echo get_category_link($cat->term_id); */?>" id="frontend"><?php /*echo $cat->name */?></a></li>
-                        <?php
-/*                        endforeach;
-                        */?>
-                    </ul>
-                </div>-->
             </div>
             <div class="js-filter">
                 <div class="masonry-container " id="portfolio_grid">
                     <div class="d-flex justify-content-center">
-                        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                                            <?php
+                    $category = get_queried_object();
+
+                    //debug($category->term_id);
+                        $args = array(
+                            'post_type' => 'post',
+                            'post_status' => 'publish',
+                        );
+
+                        if(isset($category)){
+                            $args['category__in'] = $category->term_id;
+                        }
+                        //debug($args);
+                        $query = new WP_Query($args);
+                  
+                    ?>  
+                        <?php $count_item = 0; ?>
+                        <?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
+                            <?php $count_item++; ?>
                             <div class="col-sm-12 col-md-4 portfolio-item grid-item  <?php
                             $tags = wp_get_post_tags($post->ID);
                             if ($tags) {
@@ -50,7 +49,7 @@ get_header();
                                     <div class="wrapper">
                                         <h3><?php the_title(); ?></h3>
                                         <?php the_excerpt(); ?>
-                                        <a id="popup-cont" href="#" class="popup-content">Просмотреть</a>
+                                        <a id="popup-cont" href="#" class="popup-content"></a>
                                     </div>
                                 </div>
                                 <div class="hidden">
@@ -62,22 +61,21 @@ get_header();
                                             $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' );
                                             echo $large_image_url[0];
                                             ?>" alt="<?php the_title(); ?>" />
-                                            <?php the_content(); ?>
+                                            <?php //the_content(); ?>
                                             <?php $count = $query->post_count; ?>
-                                            <?php $i++;?>
-                                            <?php if ($count == 2 || $count > 1) {?>
+                                            <?php if ($count == 2 || $count > 2) {?>
                                                 <div class="port-item-but">
-                                                    <div class="prew"><a href="#" class="popup-content">предыдущий</a></div>
-                                                    <a href="<?php the_permalink(); ?>">подробнее...</a>
-                                                    <?php if ($count !== $i) {?>
-                                                    <div class="next"><a href="#" class="popup-content">следующий</a></div>
-                                                    <?php }else{ ?>
-                                                        <div class="next"><a href="#" class="popup-content">последний</a></div>
-                                                        <?php }?>
+                                                    
+                                                    <div class="prew"><?php if ($count_item !== 1 ) {?><a href="#" class="popup-content"><?php echo portfolio_theme_option('post_arrow_left_icon');?></a><?php } ?></div>
+                                                    
+                                                    <a class="button-lite" href="<?php the_permalink(); ?>">подробнее<?php echo portfolio_theme_option('post_arrow_button_icon');?></a>
+                                                    
+                                                    <div class="next"><?php if ($count_item !== $count ) {?><a href="#" class="popup-content"><?php echo portfolio_theme_option('post_arrow_right_icon');?></a><?php } ?></div>
+                                                        
                                                 </div>
                                             <?php }elseif ($count == 1) {?>
-                                                <div class="port-item-but">
-                                                    <a href="<?php the_permalink(); ?>">подробнее...</a>
+                                                <div class="port-item-but justify-content-center">
+                                                    <a class="button-lite" href="<?php the_permalink(); ?>">подробнее<?php echo portfolio_theme_option('post_arrow_button_icon');?></a>
                                                 </div>
                                             <?php }?>
                                         </div>
@@ -99,7 +97,7 @@ get_header();
         </div>
 
     </section>
-
+</div>
 <?php
 //get_sidebar();
 get_footer();

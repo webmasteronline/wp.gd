@@ -23,7 +23,7 @@ if ( has_post_thumbnail() ){
 							<?php
 								wp_tag_cloud(array(
 								'smallest'  => 20,
-								'largest'   => 20,
+								'largest'   => 20,								
 								'unit'      => 'px',
 								));
 								//debug($cur_terms);
@@ -50,7 +50,11 @@ if ( has_post_thumbnail() ){
 			</div>
 			<div class="right-col">
 				<div class="img-box">
+										<?php if(get_field('long_img_post')){ ?>
+							 			<img src="<?php the_field('long_img_post'); ?>" alt="" width="<?php //echo $img_url[1] ?>">
+							 			<?php }else{ ?>
                     <img src="<?php echo $img_url[0]; ?>" alt="" width="<?php echo $img_url[1] ?>">
+                    <?php } ?>
                     <div class="heart-like"><?php  $icon=portfolio_theme_option('post_heart_icon') ?>
                     <?php echo getPostLikeLink(get_the_ID(),$icon); ?>
                     </div>
@@ -58,9 +62,13 @@ if ( has_post_thumbnail() ){
 			</div>
 			
 </div>
+	<?php 
+		$a=do_shortcode('[WPCR_SHOW POSTID='.$post->ID.' NUM="10"]');
+		if (strpos($a, 'wpcr3_caps') !== false) {?>
 <div class="feed-b-review">
 	<h3 class="feed-review-title">Feedbacks</h3>
 	<?php echo do_shortcode('[WPCR_SHOW POSTID='.$post->ID.' NUM="10"]');?>
 </div>
+<?php } ?>
 <?php //echo do_shortcode('[WPCR_SHOW POSTID="ALL" NUM="3"]'); ?>
 	

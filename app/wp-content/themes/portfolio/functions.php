@@ -224,4 +224,8 @@ function portfolio_theme_option ($name){
     }
 }
 
+//Limit words on the publish content [...]
+add_filter( 'excerpt_length', function(){
+	return 20;
+} );
 

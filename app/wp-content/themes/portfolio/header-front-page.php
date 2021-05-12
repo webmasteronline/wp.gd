@@ -71,7 +71,7 @@
                                  ?></h1>
                             <p><?php echo get_bloginfo( 'description' ); ?></p>
                         </div>
-                        <div class="main-button"><a  href="<?php echo esc_attr( esc_url( get_page_link(134) ) ) ?>" class="button" target="_blank">Contact me</a></div>
+                        <div class="main-button"><a  href="<?php echo esc_attr( esc_url( get_page_link(134) ) ) ?>" class="button-lite" target="_blank">Contact me <?php echo portfolio_theme_option('post_arrow_button_icon');?></a></div>
                     </div>
                 </div>
             </div>

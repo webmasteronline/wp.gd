@@ -11,6 +11,7 @@ $cat_head_bg: #F9F9FF
 $cat_head_color: #000000
 $bg_box_dark: #525252
 $bg_box_grey: #C8C8C8
+$accent: #00bfff
 
 @mixin kerning($kerning)
 	letter-spacing: $kerning + px
@@ -22,11 +23,96 @@ body
 a
 	color: $color
 
-p,
-body .main-footer,
-.s-about li
-	color: $text_color
+.port-item-but
+	.next, .prew
+		a
+			&:hover
+				svg 
+					path
+						fill: $accent
+.mfp-close-btn-in 
+	.mfp-close
+		&:hover
+			color: $accent
 
+.sandwich
+	&:hover
+		.sw-topper, .sw-bottom, .sw-footer
+			background: $accent
+
+//main-button
+.top-wrapper
+	.top-descr
+		.top-centered
+			.container-fluid
+				.main-button
+					.button-lite
+						svg 
+							path
+								fill: #fff						
+						&::before
+							border-top: 2px solid #fff
+						&::after
+							border-bottom: 2px solid #fff
+						&:hover
+							border-right: 2px solid $accent
+							&::after
+								border-color: $accent
+								width: 70%
+							&::before
+								border-color: $accent
+								width: 70%
+							svg 
+								path
+									fill: $accent								
+
+//main-button end
+
+// Top menu categoty
+
+
++media-breakpoint-down(lg)
+	.category-head
+		.category-head-body
+			.menu
+				.current-menu-item
+					a 
+						color: $accent
+				li 
+					a 
+						&:hover
+							color: $accent						
+// Top menu categoty end
+//section skills
+
+.button-lite
+	&:hover
+		border-right: 1px solid $accent
+		&::after
+			border-color: $accent
+			width: 70%
+		&::before
+			border-color: $accent
+			width: 70%
+		svg 
+			path
+				fill: $accent		
+//section skills end
+//section portfolio-s
+.port-item-but
+	.button-lite
+		&:hover
+			border-right: 1px solid $accent
+			&::after
+				border-color: $accent
+				width: 70%
+			&::before
+				border-color: $accent
+				width: 70%
+			svg 
+				path
+					fill: $accent		
+//section portfolio-s end
 .main-footer
 	+kerning(0)
 svg
@@ -86,7 +172,7 @@ svg
 			color: $cat_head_nav
 .top-mnu
 	a:hover
-		color: $color
+		color: $accent
 	a
 		+kerning(4)
 .top-text
@@ -136,8 +222,8 @@ section
 .portfolio-item 
 	.port-item-cont
 		a
-			border: $color 1px solid
-			color: $color
+			//border: $color 1px solid
+			//color: $color
 
 .main-footer a
 	color: $color

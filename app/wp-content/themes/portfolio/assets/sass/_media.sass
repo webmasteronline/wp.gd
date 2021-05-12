@@ -10,7 +10,7 @@
 			li
 				margin-left: 25px
 	.category-head-body
-		padding: 0 25px
+		padding: 0 55px
 	.post 
 		.left-col 
 			.feed-b-box
@@ -95,6 +95,8 @@
 	.main-head
 		padding-left: 50px
 		padding-right: 50px
+		.logo-container
+			margin-top: 0
 		.social-wrap
 			right: 70px
 			ul
@@ -186,6 +188,8 @@
 			position: relative
 			padding-top: 40px
 		.resume-item
+			padding-top: 125px
+			padding-bottom: 70px
 			padding-left: 70px
 			transition: all 1.8s
 	//section resume end
@@ -195,14 +199,33 @@
 		.title-block
 			margin-left: 40px
 	.portf-cat
-		margin-left: 12%
-	//section portfolio-s end
+		margin-left: 0
+		height: auto
+		padding-top: 55px
+		padding-bottom: 55px
+		li 
+			margin-right: 109px
+			&:first-child
+				margin-left: 7vw
+				margin-right: 10vw
+	.portfolio-wrap
+		padding-bottom: 115px
 
+	//portfolio page
+	.category-page
+		.portfolio-s
+			padding-top: 10%
+		.portfolio-wrap
+			padding-bottom: 100px
+		.filter_div
+			height: 100px
+	//section portfolio-s end
 
 	//section contact 
 	.contact-header
 		padding-right: 70px !important
-	#contacts 
+	#contacts
+		padding-top: 50px
 		.contact-form
 			width: 440px
 		.fw_form_fw_form 
@@ -284,8 +307,26 @@
 			padding-left: 0
 			margin-left: 10px
 			text-align: center
+			.current-menu-item
+				border-bottom: none
+				a 
+					font-weight: normal
 			li
 				margin-left: 0px
+				&:nth-child(1) a
+					+animation-duration(1s)
+				&:nth-child(2) a
+					+animation-duration(1.5s)
+				&:nth-child(3) a
+					+animation-duration(2s)	
+				&:nth-child(4) a
+					+animation-duration(2.3s)		
+				&:nth-child(5) a
+					+animation-duration(2.6s)		
+				&:nth-child(6) a
+					+animation-duration(2.9s)		
+				&:nth-child(7) a
+					+animation-duration(3.3s)		
 				a 
 					color: #fff
 					display: flex
@@ -294,7 +335,12 @@
 					text-transform: uppercase
 					text-decoration: none
 					position: relative
-					height: 55px			
+					height: 60px		
+					font-family: 'RobotoRegular'
+					font-size: 14px
+					+kerning(4)
+					&::after
+						display: none			
 	.top-menu-categ
 		position: fixed
 		top: -100%  //убираем в верх меню и показываем его при клике на бургер
@@ -303,7 +349,7 @@
 		height: 100%
 		overflow: auto // прокрутка(скрол) моб. меню если не влазит на экран моб вер.
 		background-color: rgba(0,0,0,.8)
-		padding: 100px 10px 20px 10px
+		padding: 130px 10px 20px 10px
 		transition: all 0.3s ease 0s
 		overflow: auto
 		&.active
@@ -338,10 +384,12 @@
 		&.active
 			&::before
 				transform: rotate(45deg)
+				background-color: rgba(255,255,255,.8)
 				top: 9px
 		&.active
 			&::after
 				transform: rotate(-45deg)
+				background-color: rgba(255,255,255,.8)
 				bottom: 9px
 		&.active
 			span 
@@ -471,8 +519,13 @@
 		height: auto
 		padding-top: 55px
 		padding-bottom: 50px
+		li 
+			margin-right: 45px
 	.portfolio-wrap
 		padding-bottom: 100px
+	.title-wrap 
+		.desc
+			margin-left: 95px
 	//section portfolio-s end
 	//section contact 
 	#contacts 
@@ -482,6 +535,8 @@
 
 // ≥992px
 +media-breakpoint-down(md)
+	.main-head
+		background-position: 75% top !important
 	.post
 		.right-col
 			.img-box
@@ -561,7 +616,7 @@
 		.desc
 			font-size: 16px
 	.portf-cat
-		margin-left: 10%
+		margin-left: 0
 		li 
 			a 
 				font-size: 16px
@@ -596,6 +651,7 @@
 			padding-bottom: 55px
 	.title-form-contact
 		padding-right: 0
+		text-align: center
 	//section contact end
 
 	//section count
@@ -708,6 +764,8 @@
 	.header__burger
 		position: absolute
 		left: 50%
+		&.active
+			right: 4%
 	.yoast-breadcrumbs
 		display: none
 	.img-box-mob
@@ -719,7 +777,7 @@
 	//section portfolio-s
 	.portf-cat
 		li 
-			margin-right: 60px
+			margin-right: 70px
 	//section portfolio-s end
 
 	//footer
@@ -959,6 +1017,22 @@
 				li 
 					a
 						font-size: 14px
+	.main-footer 
+		.footer-menu 
+			.menu 
+				li 
+					a
+						font-size: 14px
+	.icon-list 
+		a 
+			svg
+				width: 20px
+				height: 21px
+		li 
+			.vk-icon 
+				svg
+					width: 25px
+					height: 22px
 	.attr-list
 		display: flex
 		flex-direction: column
@@ -1007,9 +1081,12 @@
 			padding-right: 35px
 	//Section about end
 	//section portfolio-s
+	.portfolio-wrap 
+		.portfolio-wrap-bg
+			width: 80vw
 	.portf-cat
 		flex-direction: column
-		margin-left: 8%
+		margin-left: 0
 		padding-bottom: 30px
 		li
 			margin-right: 0px
@@ -1029,6 +1106,12 @@
 	.contact-header 
 		padding-right: 15px!important
 	#contacts
+		padding-bottom: 45px
+	.contact-page
+		#contacts
+			padding-top: 100px
+	#contacts
+		padding-top: 0
 		.fw-container-fluid
 			.fw-row
 				&:first-child
@@ -1051,6 +1134,8 @@
 			max-width: 100%
 			margin-bottom: 50px
 			margin-top: 30px
+	.title-form-contact
+		font-size: 16px
 
 	//section contact end
 
@@ -1060,6 +1145,9 @@
 	.main-head
 		padding-left: 0px
 		padding-right: 0px
+		.toggle-mnu
+			width: 45px
+			height: 45px
 		.logo-container
 			margin-top: 0
 		.social-wrap
@@ -1077,7 +1165,6 @@
 					margin-left: 0
 					text-align: center
 					margin-bottom: 40px
-
 	.top-wrapper 
 		.top-descr
 			.top-centered
@@ -1086,10 +1173,11 @@
 				text-align: center
 				vertical-align: bottom
 				padding-bottom: 100px
-			.container-fluid 
-				.main-button
-					display: flex
-					justify-content: center
+				.container-fluid 
+					.main-button
+						display: flex
+						justify-content: center
+						width: 100%
 	.category-head-body
 		padding: 0	20px
 	.top-wrapper
@@ -1170,10 +1258,11 @@
 			padding-top: 30px
 			margin-left: 0px
 			text-align: center
+			margin-right: 0
 	//section portfolio-s end
 	//section count
 	.count-wrap
-		width: 185px
+		width: 193px
 		.count-text
 			line-height: 20px
 			&::before
@@ -1242,7 +1331,6 @@
 			padding-bottom: 155px
 	//section resume end
 
-
 // ≥425px
 @media screen and (max-width: 425px)
 	.post 
@@ -1253,6 +1341,8 @@
 			.taxonomy
 				padding-right: 20px
 				padding-left: 25px
+	.count-wrap
+		width: 185px
 
 @media screen and (max-width: 380px)
 	.top-wrapper 
@@ -1302,12 +1392,23 @@
 
 // ≤1200px
 +media-breakpoint-up(xl)
+@media screen and (max-height: 800px)
+	.main-head
+		.social-wrap
+			ul
+				li
+					margin-bottom: 25px
+
+@media screen and (max-height: 740px)
+	.top-wrapper 
+		.top-descr
+			.top-centered
+				padding-bottom: 50px
 
 @media screen and (max-height: 697px)
 	.main-head
 		.social-wrap
 			bottom: 30px
-			right: 70px
 	.top-wrapper
 		.top-descr
 			.top-centered
@@ -1315,6 +1416,8 @@
 				.container-fluid
 					.main-button
 						padding-bottom: 0
+						margin-top: 30px
 	.about-body
 		.frontend
 			top: -60px
+

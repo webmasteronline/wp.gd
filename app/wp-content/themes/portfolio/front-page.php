@@ -2,17 +2,19 @@
 <section id="about">
 	<div class="about-body">
 
-
 		<div class="frontend-wrap">
 			<div class="frontend bg-collor-dark">
 				<div class="big-title">FRONTEND</div>
 				<ul class="skill-list">
-					<li><a href="#">CSS3</a></li>
-					<li><a href="#">Sass</a></li>
-					<li><a href="#">Bootstrap</a></li>
-					<li><a href="#">HTML5</a></li>
-					<li><a href="#">jQuery</a></li>
-					<li><a href="#">Java Script</a></li>
+					<?php if(get_field('skills_frontend_1')): ?><li><?php the_field('skills_frontend_1') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_2')): ?><li><?php the_field('skills_frontend_2') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_3')): ?><li><?php the_field('skills_frontend_3') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_4')): ?><li><?php the_field('skills_frontend_4') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_5')): ?><li><?php the_field('skills_frontend_5') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_6')): ?><li><?php the_field('skills_frontend_6') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_7')): ?><li><?php the_field('skills_frontend_7') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_8')): ?><li><?php the_field('skills_frontend_8') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_9')): ?><li><?php the_field('skills_frontend_9') ?></li><?php endif; ?>
 				</ul>
 			</div>
 			<div class="skills">
@@ -29,16 +31,18 @@
 					<p class="title-block">Hi, I’m Dmitriy</p>
 					<p class="text">I was born and live in a beautiful country - Moldova. This is a place of power for me. I am married and have a wonderful son. He is my incentive for growth and development in the professional field.<br>
 					My main area of ​​work is layout: converting design layouts (PSD, Figma, Adobe XD) into HTML code, landing on CMS WordPress...</p>
-					<div class="but-wrap"><a class="button-lite" href="#">want to know more  <span>&rarr;</span></a></div>
+					<!--<div class="but-wrap"><a class="button-lite" href="#">want to know more  <?php echo portfolio_theme_option('post_arrow_button_icon');?></a></div>-->
 				</div>
 			</div>
 		
 			<div class="backend bg-collor-grey">
 				<ul class="skill-list">
-					<li><a href="#">wordpress</a></li>
-					<li><a href="#">opencard</a></li>
-					<li><a href="#">mysql</a></li>
-					<li><a href="#">php</a></li>
+					<?php if(get_field('skills_frontend_1')): ?><li><?php the_field('skills_backend_1') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_2')): ?><li><?php the_field('skills_backend_2') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_3')): ?><li><?php the_field('skills_backend_3') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_4')): ?><li><?php the_field('skills_backend_4') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_5')): ?><li><?php the_field('skills_backend_5') ?></li><?php endif; ?>
+					<?php if(get_field('skills_frontend_6')): ?><li><?php the_field('skills_backend_6') ?></li><?php endif; ?>
 				</ul>
 				<div class="big-title">BACKEND</div>
 			</div>
@@ -117,8 +121,9 @@
 		    <div class="masonry-container " id="portfolio_grid">
 		        <div class="d-flex justify-content-center">
 
-
+<?php $count_item = 0; ?>
 		<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
+			<?php $count_item++; ?>
 		    <div class="col-sm-12 col-md-4 portfolio-item grid-item  <?php
 		        $tags = wp_get_post_tags($post->ID);
 		        if ($tags) {
@@ -132,7 +137,7 @@
                 <div class="wrapper">
                 <h3><?php the_title(); ?></h3>
                 <?php the_excerpt(); ?>
-                <a id="popup-cont" href="#" class="popup-content">Просмотреть</a>
+                <a id="popup-cont" href="#" class="popup-content"></a>
                 </div>
             </div>
             <div class="hidden">
@@ -144,17 +149,21 @@
                         $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' );
                         echo $large_image_url[0];
                         ?>" alt="<?php the_title(); ?>" />
-                        <?php the_content(); ?>
+                        <?php //the_content(); ?>
                         <?php $count = $query->post_count; ?>
                         <?php if ($count == 2 || $count > 2) {?>
                             <div class="port-item-but">
-                                <div class="prew"><a href="#" class="popup-content">предыдущий</a></div>
-                                <a href="<?php the_permalink(); ?>">подробнее...</a>
-                                <div class="next"><a href="#" class="popup-content">следующий</a></div>
+                            	
+                                 <div class="prew"><?php if ($count_item !== 1 ) {?><a href="#" class="popup-content"><?php echo portfolio_theme_option('post_arrow_left_icon');?></a><?php } ?></div>
+                                
+                                <a class="button-lite" href="<?php the_permalink(); ?>">подробнее<?php echo portfolio_theme_option('post_arrow_button_icon');?></a>
+                                
+                                <div class="next"><?php if ($count_item !== $count ) {?><a href="#" class="popup-content"><?php echo portfolio_theme_option('post_arrow_right_icon');?></a><?php } ?></div>
+                            		
                             </div>
                         <?php }elseif ($count == 1) {?>
-                            <div class="port-item-but">
-                                <a href="<?php the_permalink(); ?>">подробнее...</a>
+                            <div class="port-item-but justify-content-center">
+                                <a class="button-lite" href="<?php the_permalink(); ?>">подробнее<?php echo portfolio_theme_option('post_arrow_button_icon');?></a>
                             </div>
                         <?php }?>
                     </div>
