@@ -19,6 +19,7 @@ if ( has_post_thumbnail() ){
 							yoast_breadcrumb( '<nav class="yoast-breadcrumbs">', '</nav>' );
 						}
 						?>
+							<?php if(get_field('main_title')): ?><h2><?php the_field('main_title') ?></h2><?php endif; ?>
 						<div class="hashtag">
 							<?php
 								wp_tag_cloud(array(
@@ -32,6 +33,7 @@ if ( has_post_thumbnail() ){
 				</div>
 				<div class="post-content">
 					<?php the_content(''); ?>
+					<a  href="<?php echo esc_attr( esc_url( get_page_link(134) ) ) ?>" class="button-post" target="_blank">Contact me</a>
 				</div>
 				<div class="img-box-mob">
             <img src="<?php echo $img_url[0]; ?>" alt="" width="<?php echo $img_url[1] ?>">
@@ -65,8 +67,8 @@ if ( has_post_thumbnail() ){
 	<?php 
 		$a=do_shortcode('[WPCR_SHOW POSTID='.$post->ID.' NUM="10"]');
 		if (strpos($a, 'wpcr3_caps') !== false) {?>
+		<h3 class="feed-review-title">Feedbacks</h3>
 <div class="feed-b-review">
-	<h3 class="feed-review-title">Feedbacks</h3>
 	<?php echo do_shortcode('[WPCR_SHOW POSTID='.$post->ID.' NUM="10"]');?>
 </div>
 <?php } ?>
